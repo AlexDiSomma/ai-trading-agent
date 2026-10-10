@@ -1,0 +1,39 @@
+# Segreti: mai nel repository
+.env
+.env.local
+*.pem
+*.key
+secrets/
+
+# Kill switch e stato runtime locale
+var/
+run/
+*.killswitch
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+dist/
+build/
+*.egg-info/
+
+# Node / Next.js
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env*.local
+
+# Dati locali
+data/
+logs/
+*.sqlite3
+
+# Cache di build TypeScript
+*.tsbuildinfo

@@ -1,0 +1,583 @@
+├── .hypothesis/
+│   ├── constants/
+│   │   ├── 00347cddf58a4d42
+│   │   ├── 0658746165705a14
+│   │   ├── 06bfb4eb112edb13
+│   │   ├── 0abf2f4803d3c217
+│   │   ├── 0b89ee38acc4977b
+│   │   ├── 0e36e09bf22c78dc
+│   │   ├── 0e67d82f2998ca9a
+│   │   ├── 0f4cd9acd8ca10bc
+│   │   ├── 0fb9eefa1cd7eab5
+│   │   ├── 115743c80f31d8ab
+│   │   ├── 14afa3f7fe2682af
+│   │   ├── 1658e33a7477a7a5
+│   │   ├── 173d4d8db0865c11
+│   │   ├── 1b9436eec30470e0
+│   │   ├── 1df3911ed94aed39
+│   │   ├── 208b8d89e842a23f
+│   │   ├── 215da1c18c69e17b
+│   │   ├── 247340ebe2bbef53
+│   │   ├── 25ac74498905defb
+│   │   ├── 268143356b967f81
+│   │   ├── 26a0f4eac9fe3831
+│   │   ├── 2862f195e417cc80
+│   │   ├── 29e2dfc8e06b3b07
+│   │   ├── 2a821f8c249e8d56
+│   │   ├── 2ad1161defc94c69
+│   │   ├── 2b71248cbb34f44f
+│   │   ├── 2b80850113e3566e
+│   │   ├── 2c2d8878324f8733
+│   │   ├── 2db7bb68d6288b65
+│   │   ├── 2dd874c80b876129
+│   │   ├── 2e2be52d1e1acb68
+│   │   ├── 2fe21d0dd8de2104
+│   │   ├── 33bd409e012ffa9b
+│   │   ├── 36956cde746b8b46
+│   │   ├── 37cf5ed0984f54a7
+│   │   ├── 38a98ea8692671ec
+│   │   ├── 391154514180a991
+│   │   ├── 3919d41c9572fbe6
+│   │   ├── 3997b1562255c882
+│   │   ├── 3a777fad020bbe0a
+│   │   ├── 3bb812e53a15b66d
+│   │   ├── 3d2e5638b9346451
+│   │   ├── 3e972aa59ffdff56
+│   │   ├── 3f88ea3fca7634b3
+│   │   ├── 40174e48ab9a3189
+│   │   ├── 411ccba751c7981c
+│   │   ├── 420ae4524ce0266b
+│   │   ├── 456886483b92ff8b
+│   │   ├── 456bb8aa6082e187
+│   │   ├── 469a56a24c3848f3
+│   │   ├── 46eb374852ea91c1
+│   │   ├── 47be25868b4a9747
+│   │   ├── 4822222b0024b26b
+│   │   ├── 491005905053019c
+│   │   ├── 4940fe752bcbb20f
+│   │   ├── 499efafc1851015f
+│   │   ├── 4a063826bbea7c31
+│   │   ├── 4ba67f7168216f85
+│   │   ├── 4c1e55c3cacaa70d
+│   │   ├── 4c9a2dceaa5060fb
+│   │   ├── 4d2b1f48188a15d1
+│   │   ├── 4e952cd790b07e36
+│   │   ├── 50a5166436a4272f
+│   │   ├── 5142489a29f07c52
+│   │   ├── 539182c8a66a8d8e
+│   │   ├── 539ca35ff6828eed
+│   │   ├── 55776dde3ff88c41
+│   │   ├── 559bbed03a27878e
+│   │   ├── 562f0e31215c3734
+│   │   ├── 571420512964afef
+│   │   ├── 57c2a65c0c40727e
+│   │   ├── 5867f703220d9a05
+│   │   ├── 592907a6342632ed
+│   │   ├── 59b75d83fd6d7ba3
+│   │   ├── 5a667990e0edbccd
+│   │   ├── 5a6863f1215130e7
+│   │   ├── 5b2201446aabd5c2
+│   │   ├── 5d7361a4100f4989
+│   │   ├── 60a56de664cbc5b9
+│   │   ├── 622ce548ee3f9f99
+│   │   ├── 62b614103e6a9e8b
+│   │   ├── 64b7f6539b2d4e7e
+│   │   ├── 650efe281e30de5b
+│   │   ├── 6687f468fa9e10e6
+│   │   ├── 66991d17db1aeaad
+│   │   ├── 6726f2e20edb91a7
+│   │   ├── 67c31775f73fb4f7
+│   │   ├── 68483b45e66b299c
+│   │   ├── 68565eedb9e7d427
+│   │   ├── 698a154ea12fbb70
+│   │   ├── 6afbb46318ec84a7
+│   │   ├── 6c5ed897b02a2e99
+│   │   ├── 728333bd0a1bebde
+│   │   ├── 72d4aedef864041c
+│   │   ├── 745a2e2796b04c42
+│   │   ├── 762154724198ab39
+│   │   ├── 78cf57d1d6a07309
+│   │   ├── 7a804de136de2c93
+│   │   ├── 80af024419f98836
+│   │   ├── 8236cc1b94ef7cbe
+│   │   ├── 8249e06476267be0
+│   │   ├── 83cb51ef34466b86
+│   │   ├── 856f037a41ee6377
+│   │   ├── 85e5f2933acf429d
+│   │   ├── 87252ad47081fe65
+│   │   ├── 886b5a774db25c81
+│   │   ├── 8af1494ded869606
+│   │   ├── 8c0754d7d3d0bbc5
+│   │   ├── 8c1247b3c7483be1
+│   │   ├── 8d506203cc143e38
+│   │   ├── 8d99263aff2ba428
+│   │   ├── 8e9564dfb75ee239
+│   │   ├── 901e8558d3e17f9d
+│   │   ├── 90b76e464cf00a36
+│   │   ├── 916fdf692ff80968
+│   │   ├── 9268ea67d163c29b
+│   │   ├── 94597ae0beda3e51
+│   │   ├── 950a39f48449e1df
+│   │   ├── 950e4125e2efbfde
+│   │   ├── 95c55c36ade524e5
+│   │   ├── 96fca43d0e4e3991
+│   │   ├── 9728daf98c3d18d6
+│   │   ├── 9988642105bc81cc
+│   │   ├── 9d9ca44f8fa5ad98
+│   │   ├── 9f664c4e527b5f57
+│   │   ├── 9f690d7d4cf28962
+│   │   ├── 9f6959da6106cc66
+│   │   ├── 9ff3c41437951ef7
+│   │   ├── a0926cfe6b5dc6b7
+│   │   ├── a0b100323a524604
+│   │   ├── a4f824e3d9d5c4ab
+│   │   ├── a714d769f94b0357
+│   │   ├── a781a62445bc0152
+│   │   ├── a79689d646e48ee7
+│   │   ├── aab6eb92e34c8960
+│   │   ├── abd9c07035fe634c
+│   │   ├── ad5db8001f2bc21a
+│   │   ├── af0f9ecd7eb0ab55
+│   │   ├── b0a86dc491ad526c
+│   │   ├── b17fc282413de204
+│   │   ├── b28d700fd17f71da
+│   │   ├── b40f2b75617cac89
+│   │   ├── b470f3583741460d
+│   │   ├── b4aefbd35a2cdd60
+│   │   ├── b56a5121152f5fb5
+│   │   ├── b95f5c6669fcc63c
+│   │   ├── b9fd99a296447e84
+│   │   ├── bb90f9e39ecc0dd7
+│   │   ├── bedbc4b62c8ae99f
+│   │   ├── bf88f57f783f091a
+│   │   ├── bfddc5206aabe219
+│   │   ├── c09713194dc0a3a7
+│   │   ├── c17ea1e7e5fa28f4
+│   │   ├── c1e05b18eace8c78
+│   │   ├── c2280a883ff10487
+│   │   ├── c22c557212c98fce
+│   │   ├── c45b2e08ef104910
+│   │   ├── c51f2449a5664225
+│   │   ├── c6cf15cbd528b204
+│   │   ├── c8ea64bec4ea9cdf
+│   │   ├── ca1aecc24a67886e
+│   │   ├── ca29ca1d2282aba9
+│   │   ├── ca9a99ff12642410
+│   │   ├── cb96581e35199e2c
+│   │   ├── cbe71cdeee9246e4
+│   │   ├── cc2748a36a732f5d
+│   │   ├── cddbd1a71a91d108
+│   │   ├── cddbf0768764e409
+│   │   ├── ceab5496656cf8ac
+│   │   ├── cf7b0a4457fd0719
+│   │   ├── d058d6bddac36bc4
+│   │   ├── d07c86c7a0d9706b
+│   │   ├── d12774527cdb7c50
+│   │   ├── d2b48556fec70b2f
+│   │   ├── d389a99fbabc845e
+│   │   ├── d51b31df2c49e777
+│   │   ├── d682cd2fc0d654c5
+│   │   ├── d6a04963a802b91d
+│   │   ├── d6c4c18600de901f
+│   │   ├── d922bde48ee1298a
+│   │   ├── d93533dc3488536a
+│   │   ├── dc3a120be0cc45cb
+│   │   ├── e06a63c1885c3d03
+│   │   ├── e0e34407d1922239
+│   │   ├── e1452c5ecf236fb1
+│   │   ├── e16b0a95f6c0056f
+│   │   ├── e3138dea8563b5d8
+│   │   ├── e3508e69763698a5
+│   │   ├── e3a29bdb8b1c73f4
+│   │   ├── e4eb75c95ae6dda1
+│   │   ├── e87bf010a5c88d77
+│   │   ├── e8bcfef20fc9c7ae
+│   │   ├── ed113028e0ca770b
+│   │   ├── efd01e1aaeeb1c70
+│   │   ├── f008834be2989b16
+│   │   ├── f028bcca37ecd967
+│   │   ├── f187092c004e6ed7
+│   │   ├── f1b4aa2df3487aef
+│   │   ├── f26884f3e5fa1af6
+│   │   ├── f27f4eb5143c8da4
+│   │   ├── f3c7b2d2e17951ae
+│   │   ├── f63154fdffaf4c81
+│   │   ├── f68b3fa368cb92f3
+│   │   ├── f699674ac413200b
+│   │   ├── f6bf35b5b86bfbbb
+│   │   ├── f738a936a3b0d39d
+│   │   ├── f76da773f4c57758
+│   │   ├── f789ddc0fbd68022
+│   │   ├── f7ec501b523975cd
+│   │   ├── f885da4db64646f4
+│   │   ├── f8d1968916a2ac62
+│   │   ├── fa7e4ee2e2c8760d
+│   │   ├── fb5d5fe2d18c88b8
+│   │   ├── fbf300a4529d83d4
+│   │   ├── fe1977a927a5103e
+│   │   └── ffa2467e0343c3a9
+│   ├── examples/
+│   │   ├── 04e6b3400353b141/
+│   │   │   ├── 3d4a32f5c6ee36eb
+│   │   │   └── d523d026be58ad18
+│   │   ├── 3d4a32f5c6ee36eb/
+│   │   │   └── 3def60a866bf40c2
+│   │   └── d523d026be58ad18/
+│   │       └── f7e9c50b70d96f3c
+│   └── .gitignore
+├── .vscode/
+│   ├── extensions.json
+│   ├── launch.json
+│   └── settings.json
+├── backend/
+│   ├── ai/
+│   │   ├── agents/
+│   │   │   ├── __init__.py
+│   │   │   └── market_analyst.py
+│   │   ├── providers/
+│   │   │   ├── __init__.py
+│   │   │   ├── anthropic_client.py
+│   │   │   ├── base.py
+│   │   │   └── openai_client.py
+│   │   ├── thesis/
+│   │   │   ├── __init__.py
+│   │   │   ├── agent.py
+│   │   │   ├── contracts.py
+│   │   │   ├── input_builder.py
+│   │   │   ├── prompts.py
+│   │   │   └── validation.py
+│   │   ├── __init__.py
+│   │   ├── contracts.py
+│   │   ├── factory.py
+│   │   ├── input_builder.py
+│   │   ├── journal.py
+│   │   ├── prompts.py
+│   │   └── validation.py
+│   ├── api/
+│   │   ├── routes/
+│   │   │   ├── __init__.py
+│   │   │   ├── account.py
+│   │   │   ├── ai.py
+│   │   │   ├── analysis.py
+│   │   │   ├── global_market.py
+│   │   │   ├── health.py
+│   │   │   ├── market.py
+│   │   │   ├── portfolio.py
+│   │   │   └── system.py
+│   │   ├── __init__.py
+│   │   ├── deps.py
+│   │   └── router.py
+│   ├── backtesting/
+│   │   └── __init__.py
+│   ├── brokers/
+│   │   ├── mt5/
+│   │   │   ├── __init__.py
+│   │   │   ├── connector.py
+│   │   │   ├── mapping.py
+│   │   │   ├── mock.py
+│   │   │   └── terminal.py
+│   │   ├── __init__.py
+│   │   ├── base.py
+│   │   └── factory.py
+│   ├── calendar/
+│   │   ├── __init__.py
+│   │   └── risk.py
+│   ├── config/
+│   │   ├── __init__.py
+│   │   ├── global_universe.py
+│   │   ├── paths.py
+│   │   ├── risk_limits.py
+│   │   └── settings.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── clock.py
+│   │   ├── enums.py
+│   │   ├── errors.py
+│   │   ├── events.py
+│   │   ├── freshness.py
+│   │   ├── kill_switch.py
+│   │   └── logging.py
+│   ├── database/
+│   │   ├── migrations/
+│   │   │   ├── versions/
+│   │   │   │   ├── 20260101_0001_fondazione.py
+│   │   │   │   ├── 20261004_0002_contesto_mercato.py
+│   │   │   │   ├── 20261004_0003_contesto_globale.py
+│   │   │   │   └── 20261005_0004_analisi_ai.py
+│   │   │   ├── env.py
+│   │   │   └── script.py.mako
+│   │   ├── __init__.py
+│   │   └── session.py
+│   ├── execution/
+│   │   └── __init__.py
+│   ├── global_market/
+│   │   ├── __init__.py
+│   │   ├── backdrop.py
+│   │   ├── currency_strength.py
+│   │   ├── engine.py
+│   │   ├── external_dims.py
+│   │   ├── features.py
+│   │   ├── parametri.py
+│   │   ├── qualita.py
+│   │   ├── reader.py
+│   │   ├── relative_strength.py
+│   │   ├── risk.py
+│   │   ├── sources.py
+│   │   └── volatility.py
+│   ├── intermarket/
+│   │   ├── __init__.py
+│   │   ├── correlation.py
+│   │   └── engine.py
+│   ├── journal/
+│   │   └── __init__.py
+│   ├── macro/
+│   │   ├── __init__.py
+│   │   └── event_risk.py
+│   ├── market_data/
+│   │   ├── __init__.py
+│   │   ├── broker_time.py
+│   │   ├── ingestion.py
+│   │   ├── instruments.py
+│   │   ├── quote_quality.py
+│   │   ├── reader.py
+│   │   ├── registry.py
+│   │   ├── sessions.py
+│   │   └── specifications.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── ai.py
+│   │   ├── base.py
+│   │   ├── context.py
+│   │   ├── global_market.py
+│   │   ├── market.py
+│   │   └── system.py
+│   ├── news/
+│   │   └── __init__.py
+│   ├── performance/
+│   │   └── __init__.py
+│   ├── portfolio/
+│   │   ├── __init__.py
+│   │   ├── deals.py
+│   │   └── exposure.py
+│   ├── positions/
+│   │   └── __init__.py
+│   ├── providers/
+│   │   ├── __init__.py
+│   │   ├── base.py
+│   │   ├── cboe.py
+│   │   ├── forexfactory.py
+│   │   ├── http.py
+│   │   └── us_treasury.py
+│   ├── quant/
+│   │   ├── __init__.py
+│   │   ├── indicators.py
+│   │   └── series.py
+│   ├── regime/
+│   │   ├── __init__.py
+│   │   └── trend.py
+│   ├── risk/
+│   │   └── __init__.py
+│   ├── scanner/
+│   │   └── __init__.py
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   ├── account.py
+│   │   ├── context.py
+│   │   ├── exposure.py
+│   │   ├── external.py
+│   │   ├── global_market.py
+│   │   ├── health.py
+│   │   ├── instrument.py
+│   │   ├── intent.py
+│   │   ├── market.py
+│   │   ├── quant.py
+│   │   ├── quote.py
+│   │   └── valuation.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── asset_analysis.py
+│   │   ├── cache.py
+│   │   ├── container.py
+│   │   ├── global_intelligence.py
+│   │   ├── health.py
+│   │   ├── market_snapshot.py
+│   │   ├── persistence.py
+│   │   ├── shadow_runner.py
+│   │   └── system_journal.py
+│   ├── shadow/
+│   │   ├── __init__.py
+│   │   ├── conditions.py
+│   │   ├── evaluator.py
+│   │   ├── evidence.py
+│   │   ├── groups.py
+│   │   ├── journal.py
+│   │   ├── metrics.py
+│   │   ├── plans.py
+│   │   ├── quant_baseline.py
+│   │   └── records.py
+│   ├── signals/
+│   │   └── __init__.py
+│   ├── structure/
+│   │   ├── __init__.py
+│   │   ├── breakout.py
+│   │   ├── levels.py
+│   │   ├── market_structure.py
+│   │   └── swings.py
+│   ├── tests/
+│   │   ├── dati/
+│   │   │   ├── cboe_vix_2026-10-05.csv
+│   │   │   ├── forexfactory_2026-10-05.json
+│   │   │   ├── treasury_2026.csv
+│   │   │   └── xm_demo_2026-10-04.json
+│   │   ├── integration/
+│   │   │   ├── __init__.py
+│   │   │   ├── conftest.py
+│   │   │   └── test_api.py
+│   │   ├── live/
+│   │   │   ├── __init__.py
+│   │   │   ├── test_live_globale.py
+│   │   │   └── test_live_xm.py
+│   │   ├── unit/
+│   │   │   ├── __init__.py
+│   │   │   ├── test_ai_analista.py
+│   │   │   ├── test_asset_context.py
+│   │   │   ├── test_calendario_fasi.py
+│   │   │   ├── test_config.py
+│   │   │   ├── test_contesto_globale.py
+│   │   │   ├── test_core.py
+│   │   │   ├── test_correlazione.py
+│   │   │   ├── test_fonti_esterne.py
+│   │   │   ├── test_foundation_invarianti.py
+│   │   │   ├── test_foundation_strumenti.py
+│   │   │   ├── test_lettore_globale.py
+│   │   │   ├── test_mapping_puro.py
+│   │   │   ├── test_market_data.py
+│   │   │   ├── test_market_data_registry.py
+│   │   │   ├── test_mt5_connector.py
+│   │   │   ├── test_mt5_mapping.py
+│   │   │   ├── test_persistenza.py
+│   │   │   ├── test_portfolio.py
+│   │   │   ├── test_quant.py
+│   │   │   ├── test_read_only_guarantee.py
+│   │   │   ├── test_regressioni_xm.py
+│   │   │   ├── test_risk_limits.py
+│   │   │   ├── test_shadow.py
+│   │   │   ├── test_structure.py
+│   │   │   └── test_valutazione_centralizzata.py
+│   │   ├── __init__.py
+│   │   ├── conftest.py
+│   │   └── scenari_globali.py
+│   ├── trade_planner/
+│   │   ├── __init__.py
+│   │   └── intent.py
+│   ├── valuation/
+│   │   ├── __init__.py
+│   │   └── service.py
+│   ├── workers/
+│   │   └── __init__.py
+│   ├── __init__.py
+│   ├── main.py
+│   ├── report_ai.py
+│   ├── report_globale.py
+│   ├── report_shadow.py
+│   ├── validazione_foundation.py
+│   └── verifica.py
+├── docs/
+│   ├── adr/
+│   │   ├── 0001-pipeline-nell-architettura.md
+│   │   ├── 0002-pipeline-a-due-cicli.md
+│   │   ├── 0003-mt5-gateway-windows.md
+│   │   ├── 0004-broker-read-only-per-costruzione.md
+│   │   ├── 0005-risk-engine-non-aggirabile.md
+│   │   ├── 0006-kill-switch-e-breaker.md
+│   │   ├── 0007-freschezza-come-tipo.md
+│   │   ├── 0008-determinismo-ai-e-backtest.md
+│   │   ├── 0009-postgres-per-i-fatti.md
+│   │   ├── 0010-ora-del-broker.md
+│   │   ├── 0011-sessioni-non-esposte-da-mt5.md
+│   │   ├── 0012-valore-monetario-dal-broker.md
+│   │   ├── 0013-spread-relativo-all-atr.md
+│   │   ├── 0014-valutazione-e-identita-centralizzate.md
+│   │   ├── 0015-eta-dei-dati-in-ora-broker.md
+│   │   ├── 0016-universo-di-osservazione.md
+│   │   ├── 0017-contesto-globale-quantitativo.md
+│   │   ├── 0018-fonti-oltre-il-broker.md
+│   │   ├── 0019-politica-di-persistenza.md
+│   │   ├── 0020-revisione-motore-globale.md
+│   │   ├── 0021-qualita-per-fonte-e-calendario-a-fasi.md
+│   │   ├── 0022-ai-market-analyst-read-only.md
+│   │   └── 0023-trade-thesis-shadow-mode.md
+│   ├── validazione/
+│   │   ├── ai_dal_vivo_2026-10-05_1438.json
+│   │   ├── ai_dal_vivo_2026-10-05_1445.json
+│   │   ├── ai_dal_vivo_2026-10-05_1448.json
+│   │   ├── ai_dal_vivo_2026-10-05_1451.json
+│   │   ├── ai_dal_vivo_senza_fonti_esterne_2026-10-05_1438.json
+│   │   ├── ai_dal_vivo_senza_fonti_esterne_2026-10-05_1445.json
+│   │   ├── ai_dal_vivo_senza_fonti_esterne_2026-10-05_1449.json
+│   │   ├── ai_dal_vivo_senza_fonti_esterne_2026-10-05_1451.json
+│   │   ├── ai_replay_chiusura_venerdi_2026-10-05_1438.json
+│   │   ├── ai_replay_chiusura_venerdi_2026-10-05_1445.json
+│   │   ├── ai_replay_chiusura_venerdi_2026-10-05_1449.json
+│   │   ├── ai_replay_chiusura_venerdi_2026-10-05_1451.json
+│   │   ├── confronto_forza_valute_2026-10-05.json
+│   │   ├── globale_2026-10-04_2356.json
+│   │   ├── globale_2026-10-05_0028.json
+│   │   ├── globale_2026-10-05_1053.json
+│   │   ├── globale_2026-10-05_1059.json
+│   │   ├── shadow_report_2026-10-05_1751.json
+│   │   ├── shadow_report_2026-10-05_1802.json
+│   │   ├── shadow_report_2026-10-05_1809.json
+│   │   ├── xm_demo_2026-10-04.json
+│   │   ├── xm_demo_2026-10-04_riapertura.json
+│   │   └── xm_demo_2026-10-05.json
+│   ├── _albero.py
+│   ├── _albero_generato.txt
+│   ├── ALBERO_REPOSITORY.md
+│   ├── ANALISI_SPECIFICA.md
+│   ├── BOUNDED_CONTEXTS.md
+│   ├── DATA_FLOW.md
+│   ├── DATABASE.md
+│   ├── EVENTI.md
+│   ├── EXTERNAL_PROVIDERS.md
+│   ├── FOUNDATION_VALIDATION.md
+│   ├── GLOBAL_INTELLIGENCE.md
+│   └── ROADMAP.md
+├── frontend/
+│   ├── app/
+│   │   ├── system-health/
+│   │   │   └── page.tsx
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components/
+│   │   ├── SchedaComponente.tsx
+│   │   └── StatoBadge.tsx
+│   ├── lib/
+│   │   └── api.ts
+│   ├── types/
+│   │   └── health.ts
+│   ├── .gitignore
+│   ├── next-env.d.ts
+│   ├── next.config.mjs
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.mjs
+│   ├── tailwind.config.ts
+│   ├── tsconfig.json
+│   └── tsconfig.tsbuildinfo
+├── infra/
+│   ├── backend/
+│   │   └── Dockerfile
+│   └── postgres/
+│       └── init/
+│           └── 01-extensions.sql
+├── .gitignore
+├── alembic.ini
+├── avvia.bat
+├── CLAUDE.md
+├── DECISIONI.md
+├── docker-compose.yml
+├── pyproject.toml
+├── README.md
+└── verifica.bat

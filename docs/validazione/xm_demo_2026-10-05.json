@@ -1,0 +1,922 @@
+{
+  "eseguito_utc": "2026-10-05T08:55:29.498506+00:00",
+  "conto": {
+    "server": "XMGlobalMU-MT5 2",
+    "valuta": "EUR",
+    "leva": 1000,
+    "tipo": "DEMO"
+  },
+  "ora_broker": {
+    "fonte": "MEASURED",
+    "scarto_secondi": 10800,
+    "quotazioni_concordi": 10
+  },
+  "strumenti": {
+    "EURUSD": {
+      "strumento": {
+        "canonical": "EURUSD",
+        "broker_symbol": "EURUSD",
+        "asset_class": "FX",
+        "description": "Euro vs US Dollar",
+        "base_currency": "EUR",
+        "quote_currency": "USD",
+        "profit_currency": "USD",
+        "margin_currency": "EUR",
+        "contract": {
+          "digits": 5,
+          "point": 1e-05,
+          "tick_size": 1e-05,
+          "contract_size": 100000.0,
+          "volume_min": 0.01,
+          "volume_max": 50.0,
+          "volume_step": 0.01,
+          "stops_level_points": 0,
+          "freeze_level_points": 0,
+          "trade_mode": 4,
+          "stops_level_price": 0.0
+        },
+        "mapping_source": "regola_fx",
+        "as_of": "2026-10-05T08:55:29.499385Z",
+        "canonical_is_certain": true,
+        "tradeable": true
+      },
+      "specifica": {
+        "tick_value": 0.891885624587503,
+        "tick_size": 1e-05,
+        "contract_size": 100000.0,
+        "currency_base": "EUR",
+        "currency_profit": "USD",
+        "currency_margin": "EUR",
+        "path": "Forex\\Standard\\Majors\\EURUSD"
+      },
+      "prezzo_riferimento": 1.12113,
+      "fonte_prezzo": "tick",
+      "distanza_stop": 0.005,
+      "profitto": {
+        "grezzo_long_1_lotto_allo_stop": -447.98,
+        "grezzo_short_1_lotto_allo_stop": -444.0,
+        "servizio_perdita_long": 447.98,
+        "servizio_perdita_short": 444.0,
+        "valore_unita_prezzo": 89116.23,
+        "scarto_tick_value_pct": 0.081
+      },
+      "margine": {
+        "grezzo_1_lotto": 100.0,
+        "grezzo_1_lotto_sell": 100.0,
+        "servizio_1_lotto": 100.0,
+        "servizio_volume_min": 1.0,
+        "grezzo_volume_non_normalizzato": 0.5
+      },
+      "size": {
+        "budget": 100.0,
+        "volume": 0.22,
+        "perdita_attesa": 98.55,
+        "perdita_grezza_al_volume": 98.55,
+        "perdita_grezza_un_passo_in_piu": 103.03,
+        "limitato_da": "step"
+      },
+      "invarianti": {
+        "volumi": [
+          0.01,
+          0.02,
+          0.1,
+          1.0
+        ],
+        "perdite_per_volume": [
+          4.48,
+          8.96,
+          44.8,
+          447.98
+        ],
+        "perdite_per_distanza_0.5_1_2": [
+          223.49,
+          447.98,
+          899.98
+        ],
+        "size_per_budget_400_200_100_50_10": [
+          0.89,
+          0.44,
+          0.22,
+          0.11,
+          0.02
+        ]
+      },
+      "normalizzazioni": {
+        "0.123": {
+          "requested": 0.123,
+          "volume": 0.12,
+          "adjustment": "step",
+          "volume_min": 0.01,
+          "volume_max": 50.0,
+          "volume_step": 0.01,
+          "tradeable": true
+        },
+        "0.005": {
+          "requested": 0.005,
+          "volume": 0.0,
+          "adjustment": "below_min",
+          "volume_min": 0.01,
+          "volume_max": 50.0,
+          "volume_step": 0.01,
+          "tradeable": false
+        },
+        "100.0": {
+          "requested": 100.0,
+          "volume": 50.0,
+          "adjustment": "max",
+          "volume_min": 0.01,
+          "volume_max": 50.0,
+          "volume_step": 0.01,
+          "tradeable": true
+        },
+        "1.0033333333333334": {
+          "requested": 1.0033333333333334,
+          "volume": 1.0,
+          "adjustment": "step",
+          "volume_min": 0.01,
+          "volume_max": 50.0,
+          "volume_step": 0.01,
+          "tradeable": true
+        }
+      },
+      "qualita_quotazione": {
+        "broker_symbol": "EURUSD",
+        "status": "VALID",
+        "market_status": "OPEN_CONFIRMED",
+        "is_inference": false,
+        "reasons": [
+          "Quotazione di 5s fa, entro il limite di 15s."
+        ],
+        "bid": 1.12104,
+        "ask": 1.12122,
+        "spread": 0.000180000000000069,
+        "spread_points": 18.0,
+        "spread_to_atr": null,
+        "last_tick_time": "2026-10-05T11:55:29Z",
+        "last_candle_time": "2026-10-05T10:00:00Z",
+        "tick_age_seconds": 4.6,
+        "candle_age_seconds": 6933.6,
+        "max_tick_age_seconds": 15.0,
+        "evaluated_at": "2026-10-05T08:55:33.604599Z",
+        "is_fresh": true,
+        "usable": true,
+        "mid": 1.12113
+      }
+    },
+    "USDJPY": {
+      "strumento": {
+        "canonical": "USDJPY",
+        "broker_symbol": "USDJPY",
+        "asset_class": "FX",
+        "description": "US Dollar vs Japanese Yen",
+        "base_currency": "USD",
+        "quote_currency": "JPY",
+        "profit_currency": "JPY",
+        "margin_currency": "USD",
+        "contract": {
+          "digits": 3,
+          "point": 0.001,
+          "tick_size": 0.001,
+          "contract_size": 100000.0,
+          "volume_min": 0.01,
+          "volume_max": 50.0,
+          "volume_step": 0.01,
+          "stops_level_points": 0,
+          "freeze_level_points": 0,
+          "trade_mode": 4,
+          "stops_level_price": 0.0
+        },
+        "mapping_source": "regola_fx",
+        "as_of": "2026-10-05T08:55:33.605845Z",
+        "canonical_is_certain": true,
+        "tradeable": true
+      },
+      "specifica": {
+        "tick_value": 0.5649334508394911,
+        "tick_size": 0.001,
+        "contract_size": 100000.0,
+        "currency_base": "USD",
+        "currency_profit": "JPY",
+        "currency_margin": "USD",
+        "path": "Forex\\Standard\\Majors\\USDJPY"
+      },
+      "prezzo_riferimento": 157.873,
+      "fonte_prezzo": "tick",
+      "distanza_stop": 0.5,
+      "profitto": {
+        "grezzo_long_1_lotto_allo_stop": -282.51,
+        "grezzo_short_1_lotto_allo_stop": -282.47,
+        "servizio_perdita_long": 282.51,
+        "servizio_perdita_short": 282.47,
+        "valore_unita_prezzo": 565.0228,
+        "scarto_tick_value_pct": -0.016
+      },
+      "margine": {
+        "grezzo_1_lotto": 89.2,
+        "grezzo_1_lotto_sell": 89.19,
+        "servizio_1_lotto": 89.2,
+        "servizio_volume_min": 0.89,
+        "grezzo_volume_non_normalizzato": 0.45
+      },
+      "size": {
+        "budget": 100.0,
+        "volume": 0.35,
+        "perdita_attesa": 98.88,
+        "perdita_grezza_al_volume": 98.88,
+        "perdita_grezza_un_passo_in_piu": 101.7,
+        "limitato_da": "step"
+      },
+      "invarianti": {
+        "volumi": [
+          0.01,
+          0.02,
+          0.1,
+          1.0
+        ],
+        "perdite_per_volume": [
+          2.83,
+          5.65,
+          28.25,
+          282.51
+        ],
+        "perdite_per_distanza_0.5_1_2": [
+          141.26,
+          282.51,
+          565.02
+        ],
+        "size_per_budget_400_200_100_50_10": [
+          1.41,
+          0.7,
+          0.35,
+          0.17,
+          0.03
+        ]
+      },
+      "normalizzazioni": {
+        "0.123": {
+          "requested": 0.123,
+          "volume": 0.12,
+          "adjustment": "step",
+          "volume_min": 0.01,
+          "volume_max": 50.0,
+          "volume_step": 0.01,
+          "tradeable": true
+        },
+        "0.005": {
+          "requested": 0.005,
+          "volume": 0.0,
+          "adjustment": "below_min",
+          "volume_min": 0.01,
+          "volume_max": 50.0,
+          "volume_step": 0.01,
+          "tradeable": false
+        },
+        "100.0": {
+          "requested": 100.0,
+          "volume": 50.0,
+          "adjustment": "max",
+          "volume_min": 0.01,
+          "volume_max": 50.0,
+          "volume_step": 0.01,
+          "tradeable": true
+        },
+        "1.0033333333333334": {
+          "requested": 1.0033333333333334,
+          "volume": 1.0,
+          "adjustment": "step",
+          "volume_min": 0.01,
+          "volume_max": 50.0,
+          "volume_step": 0.01,
+          "tradeable": true
+        }
+      },
+      "qualita_quotazione": {
+        "broker_symbol": "USDJPY",
+        "status": "VALID",
+        "market_status": "OPEN_CONFIRMED",
+        "is_inference": false,
+        "reasons": [
+          "Quotazione di 2s fa, entro il limite di 15s."
+        ],
+        "bid": 157.862,
+        "ask": 157.883,
+        "spread": 0.021000000000015007,
+        "spread_points": 21.0,
+        "spread_to_atr": null,
+        "last_tick_time": "2026-10-05T11:55:32Z",
+        "last_candle_time": "2026-10-05T10:00:00Z",
+        "tick_age_seconds": 1.6,
+        "candle_age_seconds": 6933.6,
+        "max_tick_age_seconds": 15.0,
+        "evaluated_at": "2026-10-05T08:55:33.613527Z",
+        "is_fresh": true,
+        "usable": true,
+        "mid": 157.8725
+      }
+    },
+    "GOLD": {
+      "strumento": {
+        "canonical": "XAUUSD",
+        "broker_symbol": "GOLD",
+        "asset_class": "METAL",
+        "description": "GOLD",
+        "base_currency": "XAU",
+        "quote_currency": "USD",
+        "profit_currency": "USD",
+        "margin_currency": "USD",
+        "contract": {
+          "digits": 2,
+          "point": 0.01,
+          "tick_size": 0.01,
+          "contract_size": 100.0,
+          "volume_min": 0.01,
+          "volume_max": 50.0,
+          "volume_step": 0.01,
+          "stops_level_points": 0,
+          "freeze_level_points": 0,
+          "trade_mode": 4,
+          "stops_level_price": 0.0
+        },
+        "mapping_source": "catalogo",
+        "as_of": "2026-10-05T08:55:33.614631Z",
+        "canonical_is_certain": true,
+        "tradeable": true
+      },
+      "specifica": {
+        "tick_value": 1.0,
+        "tick_size": 0.01,
+        "contract_size": 100.0,
+        "currency_base": "USD",
+        "currency_profit": "USD",
+        "currency_margin": "USD",
+        "path": "Derivatives\\Spot Metals\\GOLD"
+      },
+      "prezzo_riferimento": 4164.94,
+      "fonte_prezzo": "tick",
+      "distanza_stop": 10.0,
+      "profitto": {
+        "grezzo_long_1_lotto_allo_stop": -892.03,
+        "grezzo_short_1_lotto_allo_stop": -892.03,
+        "servizio_perdita_long": 892.03,
+        "servizio_perdita_short": 892.03,
+        "valore_unita_prezzo": 89.18856,
+        "scarto_tick_value_pct": 12.122
+      },
+      "margine": {
+        "grezzo_1_lotto": 371.52,
+        "grezzo_1_lotto_sell": 371.47,
+        "servizio_1_lotto": 371.52,
+        "servizio_volume_min": 3.72,
+        "grezzo_volume_non_normalizzato": 1.8599999999999999
+      },
+      "size": {
+        "budget": 100.0,
+        "volume": 0.11,
+        "perdita_attesa": 98.12,
+        "perdita_grezza_al_volume": 98.12,
+        "perdita_grezza_un_passo_in_piu": 107.04,
+        "limitato_da": "step"
+      },
+      "invarianti": {
+        "volumi": [
+          0.01,
+          0.02,
+          0.1,
+          1.0
+        ],
+        "perdite_per_volume": [
+          8.92,
+          17.84,
+          89.2,
+          892.03
+        ],
+        "perdite_per_distanza_0.5_1_2": [
+          446.01,
+          892.03,
+          1784.06
+        ],
+        "size_per_budget_400_200_100_50_10": [
+          0.44,
+          0.22,
+          0.11,
+          0.05,
+          0.01
+        ]
+      },
+      "normalizzazioni": {
+        "0.123": {
+          "requested": 0.123,
+          "volume": 0.12,
+          "adjustment": "step",
+          "volume_min": 0.01,
+          "volume_max": 50.0,
+          "volume_step": 0.01,
+          "tradeable": true
+        },
+        "0.005": {
+          "requested": 0.005,
+          "volume": 0.0,
+          "adjustment": "below_min",
+          "volume_min": 0.01,
+          "volume_max": 50.0,
+          "volume_step": 0.01,
+          "tradeable": false
+        },
+        "100.0": {
+          "requested": 100.0,
+          "volume": 50.0,
+          "adjustment": "max",
+          "volume_min": 0.01,
+          "volume_max": 50.0,
+          "volume_step": 0.01,
+          "tradeable": true
+        },
+        "1.0033333333333334": {
+          "requested": 1.0033333333333334,
+          "volume": 1.0,
+          "adjustment": "step",
+          "volume_min": 0.01,
+          "volume_max": 50.0,
+          "volume_step": 0.01,
+          "tradeable": true
+        }
+      },
+      "qualita_quotazione": {
+        "broker_symbol": "GOLD",
+        "status": "VALID",
+        "market_status": "OPEN_CONFIRMED",
+        "is_inference": false,
+        "reasons": [
+          "Quotazione di 3s fa, entro il limite di 15s."
+        ],
+        "bid": 4164.68,
+        "ask": 4165.21,
+        "spread": 0.5299999999997453,
+        "spread_points": 53.0,
+        "spread_to_atr": null,
+        "last_tick_time": "2026-10-05T11:55:31Z",
+        "last_candle_time": "2026-10-05T10:00:00Z",
+        "tick_age_seconds": 2.6,
+        "candle_age_seconds": 6933.6,
+        "max_tick_age_seconds": 15.0,
+        "evaluated_at": "2026-10-05T08:55:33.622086Z",
+        "is_fresh": true,
+        "usable": true,
+        "mid": 4164.945
+      }
+    },
+    "SILVER": {
+      "strumento": {
+        "canonical": "XAGUSD",
+        "broker_symbol": "SILVER",
+        "asset_class": "METAL",
+        "description": "SILVER",
+        "base_currency": "XAG",
+        "quote_currency": "USD",
+        "profit_currency": "USD",
+        "margin_currency": "USD",
+        "contract": {
+          "digits": 3,
+          "point": 0.001,
+          "tick_size": 0.001,
+          "contract_size": 5000.0,
+          "volume_min": 0.01,
+          "volume_max": 50.0,
+          "volume_step": 0.01,
+          "stops_level_points": 0,
+          "freeze_level_points": 0,
+          "trade_mode": 4,
+          "stops_level_price": 0.0
+        },
+        "mapping_source": "catalogo",
+        "as_of": "2026-10-05T08:55:33.623275Z",
+        "canonical_is_certain": true,
+        "tradeable": true
+      },
+      "specifica": {
+        "tick_value": 5.0,
+        "tick_size": 0.001,
+        "contract_size": 5000.0,
+        "currency_base": "USD",
+        "currency_profit": "USD",
+        "currency_margin": "USD",
+        "path": "Derivatives\\Spot Metals\\SILVER"
+      },
+      "prezzo_riferimento": 61.666,
+      "fonte_prezzo": "tick",
+      "distanza_stop": 0.3,
+      "profitto": {
+        "grezzo_long_1_lotto_allo_stop": -1338.04,
+        "grezzo_short_1_lotto_allo_stop": -1338.04,
+        "servizio_perdita_long": 1338.04,
+        "servizio_perdita_short": 1338.04,
+        "valore_unita_prezzo": 4459.4281,
+        "scarto_tick_value_pct": 12.122
+      },
+      "margine": {
+        "grezzo_1_lotto": 275.04,
+        "grezzo_1_lotto_sell": 275.0,
+        "servizio_1_lotto": 275.04,
+        "servizio_volume_min": 2.75,
+        "grezzo_volume_non_normalizzato": 1.38
+      },
+      "size": {
+        "budget": 100.0,
+        "volume": 0.07,
+        "perdita_attesa": 93.66,
+        "perdita_grezza_al_volume": 93.66,
+        "perdita_grezza_un_passo_in_piu": 107.04,
+        "limitato_da": "step"
+      },
+      "invarianti": {
+        "volumi": [
+          0.01,
+          0.02,
+          0.1,
+          1.0
+        ],
+        "perdite_per_volume": [
+          13.38,
+          26.76,
+          133.8,
+          1338.04
+        ],
+        "perdite_per_distanza_0.5_1_2": [
+          669.02,
+          1338.04,
+          2676.09
+        ],
+        "size_per_budget_400_200_100_50_10": [
+          0.29,
+          0.14,
+          0.07,
+          0.03,
+          0.0
+        ]
+      },
+      "normalizzazioni": {
+        "0.123": {
+          "requested": 0.123,
+          "volume": 0.12,
+          "adjustment": "step",
+          "volume_min": 0.01,
+          "volume_max": 50.0,
+          "volume_step": 0.01,
+          "tradeable": true
+        },
+        "0.005": {
+          "requested": 0.005,
+          "volume": 0.0,
+          "adjustment": "below_min",
+          "volume_min": 0.01,
+          "volume_max": 50.0,
+          "volume_step": 0.01,
+          "tradeable": false
+        },
+        "100.0": {
+          "requested": 100.0,
+          "volume": 50.0,
+          "adjustment": "max",
+          "volume_min": 0.01,
+          "volume_max": 50.0,
+          "volume_step": 0.01,
+          "tradeable": true
+        },
+        "1.0033333333333334": {
+          "requested": 1.0033333333333334,
+          "volume": 1.0,
+          "adjustment": "step",
+          "volume_min": 0.01,
+          "volume_max": 50.0,
+          "volume_step": 0.01,
+          "tradeable": true
+        }
+      },
+      "qualita_quotazione": {
+        "broker_symbol": "SILVER",
+        "status": "VALID",
+        "market_status": "OPEN_CONFIRMED",
+        "is_inference": false,
+        "reasons": [
+          "Quotazione di 2s fa, entro il limite di 15s."
+        ],
+        "bid": 61.63,
+        "ask": 61.701,
+        "spread": 0.07099999999999795,
+        "spread_points": 71.0,
+        "spread_to_atr": null,
+        "last_tick_time": "2026-10-05T11:55:32Z",
+        "last_candle_time": "2026-10-05T10:00:00Z",
+        "tick_age_seconds": 1.6,
+        "candle_age_seconds": 6933.6,
+        "max_tick_age_seconds": 15.0,
+        "evaluated_at": "2026-10-05T08:55:33.631580Z",
+        "is_fresh": true,
+        "usable": true,
+        "mid": 61.6655
+      }
+    },
+    "US100Cash": {
+      "strumento": {
+        "canonical": "US100",
+        "broker_symbol": "US100Cash",
+        "asset_class": "INDEX",
+        "description": "US 100 Index Cash",
+        "base_currency": "US100",
+        "quote_currency": "USD",
+        "profit_currency": "USD",
+        "margin_currency": "USD",
+        "contract": {
+          "digits": 2,
+          "point": 0.01,
+          "tick_size": 0.01,
+          "contract_size": 1.0,
+          "volume_min": 0.1,
+          "volume_max": 240.0,
+          "volume_step": 0.1,
+          "stops_level_points": 0,
+          "freeze_level_points": 0,
+          "trade_mode": 4,
+          "stops_level_price": 0.0
+        },
+        "mapping_source": "regola_indice",
+        "as_of": "2026-10-05T08:55:33.632857Z",
+        "canonical_is_certain": true,
+        "tradeable": true
+      },
+      "specifica": {
+        "tick_value": 0.01,
+        "tick_size": 0.01,
+        "contract_size": 1.0,
+        "currency_base": "USD",
+        "currency_profit": "USD",
+        "currency_margin": "USD",
+        "path": "Derivatives\\Cash\\Cash Indices\\US100Cash"
+      },
+      "prezzo_riferimento": 30769.38,
+      "fonte_prezzo": "tick",
+      "distanza_stop": 100.0,
+      "profitto": {
+        "grezzo_long_1_lotto_allo_stop": -89.2,
+        "grezzo_short_1_lotto_allo_stop": -89.2,
+        "servizio_perdita_long": 89.2,
+        "servizio_perdita_short": 89.2,
+        "valore_unita_prezzo": 0.89189,
+        "scarto_tick_value_pct": 12.121
+      },
+      "margine": {
+        "grezzo_1_lotto": 27.45,
+        "grezzo_1_lotto_sell": 27.44,
+        "servizio_1_lotto": 27.45,
+        "servizio_volume_min": 2.74,
+        "grezzo_volume_non_normalizzato": 1.37
+      },
+      "size": {
+        "budget": 100.0,
+        "volume": 1.1,
+        "perdita_attesa": 98.12,
+        "perdita_grezza_al_volume": 98.12,
+        "perdita_grezza_un_passo_in_piu": 107.04,
+        "limitato_da": "step"
+      },
+      "invarianti": {
+        "volumi": [
+          0.1,
+          0.2,
+          1.0,
+          10.0
+        ],
+        "perdite_per_volume": [
+          8.92,
+          17.84,
+          89.2,
+          892.03
+        ],
+        "perdite_per_distanza_0.5_1_2": [
+          44.6,
+          89.2,
+          178.41
+        ],
+        "size_per_budget_400_200_100_50_10": [
+          4.4,
+          2.2,
+          1.1,
+          0.5,
+          0.1
+        ]
+      },
+      "normalizzazioni": {
+        "0.123": {
+          "requested": 0.123,
+          "volume": 0.1,
+          "adjustment": "step",
+          "volume_min": 0.1,
+          "volume_max": 240.0,
+          "volume_step": 0.1,
+          "tradeable": true
+        },
+        "0.05": {
+          "requested": 0.05,
+          "volume": 0.0,
+          "adjustment": "below_min",
+          "volume_min": 0.1,
+          "volume_max": 240.0,
+          "volume_step": 0.1,
+          "tradeable": false
+        },
+        "480.0": {
+          "requested": 480.0,
+          "volume": 240.0,
+          "adjustment": "max",
+          "volume_min": 0.1,
+          "volume_max": 240.0,
+          "volume_step": 0.1,
+          "tradeable": true
+        },
+        "1.0333333333333334": {
+          "requested": 1.0333333333333334,
+          "volume": 1.0,
+          "adjustment": "step",
+          "volume_min": 0.1,
+          "volume_max": 240.0,
+          "volume_step": 0.1,
+          "tradeable": true
+        }
+      },
+      "qualita_quotazione": {
+        "broker_symbol": "US100Cash",
+        "status": "VALID",
+        "market_status": "OPEN_CONFIRMED",
+        "is_inference": false,
+        "reasons": [
+          "Quotazione di 1s fa, entro il limite di 15s."
+        ],
+        "bid": 30767.93,
+        "ask": 30770.83,
+        "spread": 2.900000000001455,
+        "spread_points": 290.0,
+        "spread_to_atr": null,
+        "last_tick_time": "2026-10-05T11:55:33Z",
+        "last_candle_time": "2026-10-05T10:00:00Z",
+        "tick_age_seconds": 0.6,
+        "candle_age_seconds": 6933.6,
+        "max_tick_age_seconds": 15.0,
+        "evaluated_at": "2026-10-05T08:55:33.641612Z",
+        "is_fresh": true,
+        "usable": true,
+        "mid": 30769.38
+      }
+    },
+    "US30Cash": {
+      "strumento": {
+        "canonical": "US30",
+        "broker_symbol": "US30Cash",
+        "asset_class": "INDEX",
+        "description": "Wall Street 30 Index Cash",
+        "base_currency": "US30",
+        "quote_currency": "USD",
+        "profit_currency": "USD",
+        "margin_currency": "USD",
+        "contract": {
+          "digits": 2,
+          "point": 0.01,
+          "tick_size": 0.01,
+          "contract_size": 1.0,
+          "volume_min": 0.1,
+          "volume_max": 180.0,
+          "volume_step": 0.1,
+          "stops_level_points": 0,
+          "freeze_level_points": 0,
+          "trade_mode": 4,
+          "stops_level_price": 0.0
+        },
+        "mapping_source": "regola_indice",
+        "as_of": "2026-10-05T08:55:33.644199Z",
+        "canonical_is_certain": true,
+        "tradeable": true
+      },
+      "specifica": {
+        "tick_value": 0.01,
+        "tick_size": 0.01,
+        "contract_size": 1.0,
+        "currency_base": "USD",
+        "currency_profit": "USD",
+        "currency_margin": "USD",
+        "path": "Derivatives\\Cash\\Cash Indices\\US30Cash"
+      },
+      "prezzo_riferimento": 51149.5,
+      "fonte_prezzo": "tick",
+      "distanza_stop": 200.0,
+      "profitto": {
+        "grezzo_long_1_lotto_allo_stop": -178.41,
+        "grezzo_short_1_lotto_allo_stop": -178.41,
+        "servizio_perdita_long": 178.41,
+        "servizio_perdita_short": 178.41,
+        "valore_unita_prezzo": 0.89189,
+        "scarto_tick_value_pct": 12.121
+      },
+      "margine": {
+        "grezzo_1_lotto": 45.63,
+        "grezzo_1_lotto_sell": 45.62,
+        "servizio_1_lotto": 45.63,
+        "servizio_volume_min": 4.56,
+        "grezzo_volume_non_normalizzato": 2.2800000000000002
+      },
+      "size": {
+        "budget": 100.0,
+        "volume": 0.5,
+        "perdita_attesa": 89.2,
+        "perdita_grezza_al_volume": 89.2,
+        "perdita_grezza_un_passo_in_piu": 107.04,
+        "limitato_da": "step"
+      },
+      "invarianti": {
+        "volumi": [
+          0.1,
+          0.2,
+          1.0,
+          10.0
+        ],
+        "perdite_per_volume": [
+          17.84,
+          35.68,
+          178.41,
+          1784.06
+        ],
+        "perdite_per_distanza_0.5_1_2": [
+          89.2,
+          178.41,
+          356.81
+        ],
+        "size_per_budget_400_200_100_50_10": [
+          2.2,
+          1.1,
+          0.5,
+          0.2,
+          0.0
+        ]
+      },
+      "normalizzazioni": {
+        "0.123": {
+          "requested": 0.123,
+          "volume": 0.1,
+          "adjustment": "step",
+          "volume_min": 0.1,
+          "volume_max": 180.0,
+          "volume_step": 0.1,
+          "tradeable": true
+        },
+        "0.05": {
+          "requested": 0.05,
+          "volume": 0.0,
+          "adjustment": "below_min",
+          "volume_min": 0.1,
+          "volume_max": 180.0,
+          "volume_step": 0.1,
+          "tradeable": false
+        },
+        "360.0": {
+          "requested": 360.0,
+          "volume": 180.0,
+          "adjustment": "max",
+          "volume_min": 0.1,
+          "volume_max": 180.0,
+          "volume_step": 0.1,
+          "tradeable": true
+        },
+        "1.0333333333333334": {
+          "requested": 1.0333333333333334,
+          "volume": 1.0,
+          "adjustment": "step",
+          "volume_min": 0.1,
+          "volume_max": 180.0,
+          "volume_step": 0.1,
+          "tradeable": true
+        }
+      },
+      "qualita_quotazione": {
+        "broker_symbol": "US30Cash",
+        "status": "VALID",
+        "market_status": "OPEN_CONFIRMED",
+        "is_inference": false,
+        "reasons": [
+          "Quotazione di 2s fa, entro il limite di 15s."
+        ],
+        "bid": 51146.5,
+        "ask": 51152.5,
+        "spread": 6.0,
+        "spread_points": 600.0,
+        "spread_to_atr": null,
+        "last_tick_time": "2026-10-05T11:55:32Z",
+        "last_candle_time": "2026-10-05T10:00:00Z",
+        "tick_age_seconds": 1.7,
+        "candle_age_seconds": 6933.7,
+        "max_tick_age_seconds": 15.0,
+        "evaluated_at": "2026-10-05T08:55:33.652176Z",
+        "is_fresh": true,
+        "usable": true,
+        "mid": 51149.5
+      }
+    }
+  }
+}

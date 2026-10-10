@@ -1,0 +1,136 @@
+{
+  "groups": [
+    {
+      "group": "A_QUANT_ONLY",
+      "decisions": 28,
+      "active_plans": 11,
+      "wait": 17,
+      "filtered": 0,
+      "rejected": 0,
+      "triggered": 10,
+      "closed": 10,
+      "pending": 1,
+      "not_triggered": 0,
+      "trigger_rate": 1.0,
+      "tp": 4,
+      "sl": 5,
+      "invalidation": 0,
+      "time_exit": 1,
+      "ambiguous_bars": 0,
+      "win_rate": 0.4,
+      "mean_r": 0.219,
+      "median_r": -0.595,
+      "total_r": 2.194,
+      "profit_factor": 1.404,
+      "max_drawdown_r": 2.285,
+      "mean_mae_r": 0.68,
+      "mean_mfe_r": 1.306,
+      "mean_hours_to_outcome": 6.817
+    },
+    {
+      "group": "B_QUANT_AI_FILTER",
+      "decisions": 28,
+      "active_plans": 1,
+      "wait": 17,
+      "filtered": 10,
+      "rejected": 0,
+      "triggered": 1,
+      "closed": 1,
+      "pending": 0,
+      "not_triggered": 0,
+      "trigger_rate": 1.0,
+      "tp": 1,
+      "sl": 0,
+      "invalidation": 0,
+      "time_exit": 0,
+      "ambiguous_bars": 0,
+      "win_rate": 1.0,
+      "mean_r": 1.946,
+      "median_r": 1.946,
+      "total_r": 1.946,
+      "profit_factor": null,
+      "max_drawdown_r": 0.0,
+      "mean_mae_r": 0.432,
+      "mean_mfe_r": 2.012,
+      "mean_hours_to_outcome": 2.58
+    },
+    {
+      "group": "C_AI_THESIS",
+      "decisions": 28,
+      "active_plans": 7,
+      "wait": 15,
+      "filtered": 0,
+      "rejected": 6,
+      "triggered": 3,
+      "closed": 3,
+      "pending": 3,
+      "not_triggered": 1,
+      "trigger_rate": 0.75,
+      "tp": 1,
+      "sl": 1,
+      "invalidation": 0,
+      "time_exit": 1,
+      "ambiguous_bars": 0,
+      "win_rate": 0.667,
+      "mean_r": -0.031,
+      "median_r": 0.248,
+      "total_r": -0.094,
+      "profit_factor": 0.91,
+      "max_drawdown_r": 1.043,
+      "mean_mae_r": 0.602,
+      "mean_mfe_r": 0.485,
+      "mean_hours_to_outcome": 14.28
+    }
+  ],
+  "filter_approved_r": {
+    "mean": 1.946,
+    "low_95": null,
+    "high_95": null,
+    "n": 1
+  },
+  "filter_rejected_r": {
+    "mean": 0.028,
+    "low_95": -0.742,
+    "high_95": 0.925,
+    "n": 9
+  },
+  "filter_value": {
+    "mean": 1.918,
+    "low_95": null,
+    "high_95": null,
+    "n": 1
+  },
+  "filter_verdict": "INSUFFICIENT_SAMPLE",
+  "thesis_vs_quant": {
+    "mean": -0.092,
+    "low_95": -0.429,
+    "high_95": 0.214,
+    "n": 25
+  },
+  "thesis_wins": 6,
+  "thesis_losses": 4,
+  "thesis_ties": 15,
+  "thesis_verdict": "INSUFFICIENT_SAMPLE",
+  "ai_records": {
+    "thesis": {
+      "REJECTED": 6,
+      "VALID": 22
+    },
+    "filter": {
+      "VALID": 11
+    }
+  },
+  "unsupported_claims": 10,
+  "confidence_calibration": {
+    "MEDIUM": {
+      "n": 3,
+      "share_r_positive": 0.667,
+      "mean_r": -0.031
+    }
+  },
+  "notes": [
+    "Verdetti solo con almeno 30 operazioni chiuse (filtro) e 50 decisioni appaiate (tesi).",
+    "R al netto dello spread; SL e TP nella stessa barra contano come SL.",
+    "La confidence dell'AI è un'etichetta: la tabella serve a calibrarla, non a usarla."
+  ]
+}

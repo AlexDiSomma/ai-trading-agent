@@ -1,0 +1,4978 @@
+{
+  "contesto": {
+    "as_of": "2026-10-05T12:48:20.439807Z",
+    "engine_version": "global-1.1.0",
+    "input_fingerprint": "c69a617624363dbd9c5f3a787a7c2f4c0332d3a23efe8855031cf258137e08c6",
+    "market_phase": "OPEN_CONFIRMED",
+    "market_phase_reason": "38 strumenti su 38 con quotazione fresca.",
+    "regime": "UNCERTAIN",
+    "regime_reasons": [
+      "Evidenze troppo deboli per una direzione di rischio."
+    ],
+    "risk_sentiment": {
+      "score": -0.281776,
+      "agreement": 0.5,
+      "by_timeframe": {
+        "D1": -0.573772,
+        "H4": -0.395461,
+        "H1": 0.047431,
+        "M15": 0.568849
+      },
+      "evidence": [
+        {
+          "name": "azioni",
+          "score": -0.060528,
+          "by_timeframe": {
+            "D1": -0.247516,
+            "H4": 0.135306,
+            "H1": -0.038545,
+            "M15": 0.055952
+          },
+          "weight": 1.0,
+          "description": "Direzione media degli indici azionari."
+        },
+        {
+          "name": "yen",
+          "score": -0.00704,
+          "by_timeframe": {
+            "D1": -0.728189,
+            "H4": 0.231908,
+            "H1": 0.297191,
+            "M15": 1.552246
+          },
+          "weight": 0.75,
+          "description": "Yen forte = domanda di rifugio (segno invertito)."
+        },
+        {
+          "name": "valute_cicliche",
+          "score": -0.747883,
+          "by_timeframe": {
+            "D1": -1.577701,
+            "H4": -0.553444,
+            "H1": -0.019541,
+            "M15": 0.531387
+          },
+          "weight": 0.75,
+          "description": "AUD e NZD forti = appetito per il rischio."
+        },
+        {
+          "name": "franco",
+          "score": -0.456338,
+          "by_timeframe": {
+            "D1": -0.146872,
+            "H4": -1.709144,
+            "H1": 0.149258,
+            "M15": 0.853022
+          },
+          "weight": 0.5,
+          "description": "Franco forte = domanda di rifugio (segno invertito)."
+        },
+        {
+          "name": "volatilita_azionaria",
+          "score": -0.26265,
+          "by_timeframe": {
+            "D1": 0.084338,
+            "H4": -0.84739,
+            "H1": -0.156626,
+            "M15": -0.108434
+          },
+          "weight": 0.5,
+          "description": "Percentile ATR mediano degli indici: alto = avversione al rischio."
+        }
+      ],
+      "strong_risk_on": [],
+      "strong_risk_off": [
+        "valute_cicliche"
+      ],
+      "label": "UNCERTAIN",
+      "quality": {
+        "dimension": "risk_sentiment",
+        "quality": "GOOD",
+        "coverage": 1.0,
+        "reasons": []
+      }
+    },
+    "volatility": {
+      "level": "ELEVATED",
+      "trend": "STABLE",
+      "shock": false,
+      "median_atr_percentile": {
+        "D1": 0.443775,
+        "H4": 0.927711,
+        "H1": 0.773092,
+        "M15": 0.544177
+      },
+      "median_bollinger_width_percentile": {
+        "D1": 0.453782,
+        "H4": 0.62605,
+        "H1": 0.5,
+        "M15": 0.470588
+      },
+      "median_realized_vol_ratio": {
+        "D1": 0.867,
+        "H4": 1.015036,
+        "H1": 0.945553,
+        "M15": 1.068124
+      },
+      "by_group": {
+        "FX": "ELEVATED",
+        "EQUITY_INDEX": "NORMAL",
+        "METAL": "NORMAL",
+        "ENERGY": "NORMAL"
+      },
+      "trend_by_group": {
+        "FX": "STABLE",
+        "EQUITY_INDEX": "COMPRESSING",
+        "METAL": "COMPRESSING",
+        "ENERGY": "STABLE"
+      },
+      "assets": [
+        {
+          "canonical": "EURUSD",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.341365,
+            "H4": 1.0,
+            "H1": 0.963855,
+            "M15": 0.682731
+          },
+          "bollinger_width_percentile": {
+            "D1": 1.0,
+            "H4": 1.0,
+            "H1": 0.87395,
+            "M15": 0.268908
+          },
+          "realized_vol_ratio": {
+            "D1": 0.866345,
+            "H4": 1.336694,
+            "H1": 1.420742,
+            "M15": 0.847798
+          },
+          "realized_vol": {
+            "D1": 0.00301627,
+            "H4": 0.00157919,
+            "H1": 0.00129966,
+            "M15": 0.00070375
+          },
+          "trend": "EXPANDING"
+        },
+        {
+          "canonical": "GBPUSD",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.140562,
+            "H4": 0.995984,
+            "H1": 0.815261,
+            "M15": 0.674699
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.941176,
+            "H4": 0.672269,
+            "H1": 0.487395,
+            "M15": 0.344538
+          },
+          "realized_vol_ratio": {
+            "D1": 1.132694,
+            "H4": 0.886921,
+            "H1": 1.295353,
+            "M15": 0.811636
+          },
+          "realized_vol": {
+            "D1": 0.00297035,
+            "H4": 0.00139188,
+            "H1": 0.00084972,
+            "M15": 0.00046218
+          },
+          "trend": "EXPANDING"
+        },
+        {
+          "canonical": "USDJPY",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.815261,
+            "H4": 0.75502,
+            "H1": 0.634538,
+            "M15": 0.26506
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.747899,
+            "H4": 0.252101,
+            "H1": 0.210084,
+            "M15": 0.865546
+          },
+          "realized_vol_ratio": {
+            "D1": 0.660201,
+            "H4": 1.084599,
+            "H1": 1.212292,
+            "M15": 1.029305
+          },
+          "realized_vol": {
+            "D1": 0.00631527,
+            "H4": 0.00191674,
+            "H1": 0.00100141,
+            "M15": 0.00049674
+          },
+          "trend": "EXPANDING"
+        },
+        {
+          "canonical": "USDCHF",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.64257,
+            "H4": 0.97992,
+            "H1": 0.803213,
+            "M15": 0.437751
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.94958,
+            "H4": 0.806723,
+            "H1": 0.605042,
+            "M15": 0.689076
+          },
+          "realized_vol_ratio": {
+            "D1": 0.775072,
+            "H4": 1.029201,
+            "H1": 0.998058,
+            "M15": 0.74159
+          },
+          "realized_vol": {
+            "D1": 0.00450555,
+            "H4": 0.00151428,
+            "H1": 0.00111142,
+            "M15": 0.00041862
+          },
+          "trend": "STABLE"
+        },
+        {
+          "canonical": "AUDUSD",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.437751,
+            "H4": 0.995984,
+            "H1": 0.477912,
+            "M15": 0.546185
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.932773,
+            "H4": 0.445378,
+            "H1": 0.294118,
+            "M15": 0.0
+          },
+          "realized_vol_ratio": {
+            "D1": 0.971001,
+            "H4": 1.159005,
+            "H1": 0.822773,
+            "M15": 0.998008
+          },
+          "realized_vol": {
+            "D1": 0.00397078,
+            "H4": 0.00198458,
+            "H1": 0.00118549,
+            "M15": 0.00043743
+          },
+          "trend": "COMPRESSING"
+        },
+        {
+          "canonical": "USDCAD",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.313253,
+            "H4": 0.987952,
+            "H1": 0.911647,
+            "M15": 0.702811
+          },
+          "bollinger_width_percentile": {
+            "D1": 1.0,
+            "H4": 0.470588,
+            "H1": 0.714286,
+            "M15": 0.319328
+          },
+          "realized_vol_ratio": {
+            "D1": 0.455521,
+            "H4": 1.668074,
+            "H1": 1.30631,
+            "M15": 0.872965
+          },
+          "realized_vol": {
+            "D1": 0.00269533,
+            "H4": 0.00100425,
+            "H1": 0.00057025,
+            "M15": 0.00027634
+          },
+          "trend": "EXPANDING"
+        },
+        {
+          "canonical": "NZDUSD",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.35743,
+            "H4": 0.895582,
+            "H1": 0.321285,
+            "M15": 0.53012
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.941176,
+            "H4": 0.546218,
+            "H1": 0.915966,
+            "M15": 0.546218
+          },
+          "realized_vol_ratio": {
+            "D1": 0.738849,
+            "H4": 1.292005,
+            "H1": 1.087208,
+            "M15": 1.039294
+          },
+          "realized_vol": {
+            "D1": 0.00456788,
+            "H4": 0.00181351,
+            "H1": 0.00109675,
+            "M15": 0.00052631
+          },
+          "trend": "STABLE"
+        },
+        {
+          "canonical": "EURGBP",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.200803,
+            "H4": 1.0,
+            "H1": 0.967871,
+            "M15": 0.779116
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.731092,
+            "H4": 1.0,
+            "H1": 0.941176,
+            "M15": 0.268908
+          },
+          "realized_vol_ratio": {
+            "D1": 1.218572,
+            "H4": 1.229061,
+            "H1": 1.44287,
+            "M15": 1.097755
+          },
+          "realized_vol": {
+            "D1": 0.00156079,
+            "H4": 0.00094275,
+            "H1": 0.00059786,
+            "M15": 0.00039923
+          },
+          "trend": "EXPANDING"
+        },
+        {
+          "canonical": "EURJPY",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.911647,
+            "H4": 0.923695,
+            "H1": 0.967871,
+            "M15": 0.726908
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.411765,
+            "H4": 0.680672,
+            "H1": 0.848739,
+            "M15": 0.672269
+          },
+          "realized_vol_ratio": {
+            "D1": 0.597706,
+            "H4": 1.028716,
+            "H1": 1.176587,
+            "M15": 1.122973
+          },
+          "realized_vol": {
+            "D1": 0.00522744,
+            "H4": 0.00214804,
+            "H1": 0.00131303,
+            "M15": 0.00073159
+          },
+          "trend": "STABLE"
+        },
+        {
+          "canonical": "EURCHF",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 1.0,
+            "H4": 0.995984,
+            "H1": 0.919679,
+            "M15": 0.562249
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.92437,
+            "H4": 1.0,
+            "H1": 0.773109,
+            "M15": 0.613445
+          },
+          "realized_vol_ratio": {
+            "D1": 1.435237,
+            "H4": 0.865384,
+            "H1": 0.871095,
+            "M15": 1.069447
+          },
+          "realized_vol": {
+            "D1": 0.00314023,
+            "H4": 0.00186665,
+            "H1": 0.00136991,
+            "M15": 0.00053268
+          },
+          "trend": "STABLE"
+        },
+        {
+          "canonical": "EURAUD",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.200803,
+            "H4": 1.0,
+            "H1": 0.927711,
+            "M15": 0.445783
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.243697,
+            "H4": 1.0,
+            "H1": 0.991597,
+            "M15": 0.109244
+          },
+          "realized_vol_ratio": {
+            "D1": 1.073841,
+            "H4": 1.241705,
+            "H1": 1.406909,
+            "M15": 0.791886
+          },
+          "realized_vol": {
+            "D1": 0.00307591,
+            "H4": 0.00140663,
+            "H1": 0.00080485,
+            "M15": 0.00048416
+          },
+          "trend": "EXPANDING"
+        },
+        {
+          "canonical": "EURCAD",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.409639,
+            "H4": 1.0,
+            "H1": 0.955823,
+            "M15": 0.759036
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.084034,
+            "H4": 1.0,
+            "H1": 0.865546,
+            "M15": 0.327731
+          },
+          "realized_vol_ratio": {
+            "D1": 1.484649,
+            "H4": 1.186556,
+            "H1": 1.366549,
+            "M15": 1.154149
+          },
+          "realized_vol": {
+            "D1": 0.00218779,
+            "H4": 0.00126457,
+            "H1": 0.00096433,
+            "M15": 0.00054962
+          },
+          "trend": "EXPANDING"
+        },
+        {
+          "canonical": "EURNZD",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.385542,
+            "H4": 0.991968,
+            "H1": 0.891566,
+            "M15": 0.502008
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.252101,
+            "H4": 0.722689,
+            "H1": 0.663866,
+            "M15": 0.478992
+          },
+          "realized_vol_ratio": {
+            "D1": 0.783331,
+            "H4": 1.334811,
+            "H1": 1.139655,
+            "M15": 0.803108
+          },
+          "realized_vol": {
+            "D1": 0.00285175,
+            "H4": 0.00125666,
+            "H1": 0.00080977,
+            "M15": 0.00048416
+          },
+          "trend": "STABLE"
+        },
+        {
+          "canonical": "GBPJPY",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.779116,
+            "H4": 0.746988,
+            "H1": 0.839357,
+            "M15": 0.646586
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.117647,
+            "H4": 0.411765,
+            "H1": 0.277311,
+            "M15": 0.798319
+          },
+          "realized_vol_ratio": {
+            "D1": 0.565366,
+            "H4": 1.001257,
+            "H1": 1.118067,
+            "M15": 1.031025
+          },
+          "realized_vol": {
+            "D1": 0.00530097,
+            "H4": 0.00174201,
+            "H1": 0.00099579,
+            "M15": 0.00051168
+          },
+          "trend": "STABLE"
+        },
+        {
+          "canonical": "GBPCHF",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.943775,
+            "H4": 0.967871,
+            "H1": 0.835341,
+            "M15": 0.550201
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.563025,
+            "H4": 1.0,
+            "H1": 0.294118,
+            "M15": 0.697479
+          },
+          "realized_vol_ratio": {
+            "D1": 1.29034,
+            "H4": 0.680869,
+            "H1": 0.617302,
+            "M15": 1.202205
+          },
+          "realized_vol": {
+            "D1": 0.00349566,
+            "H4": 0.00171459,
+            "H1": 0.00116688,
+            "M15": 0.0003637
+          },
+          "trend": "COMPRESSING"
+        },
+        {
+          "canonical": "GBPAUD",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.136546,
+            "H4": 0.931727,
+            "H1": 0.39759,
+            "M15": 0.558233
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.546218,
+            "H4": 0.445378,
+            "H1": 0.168067,
+            "M15": 0.210084
+          },
+          "realized_vol_ratio": {
+            "D1": 0.973846,
+            "H4": 1.086721,
+            "H1": 0.833021,
+            "M15": 0.981394
+          },
+          "realized_vol": {
+            "D1": 0.00302018,
+            "H4": 0.0015395,
+            "H1": 0.00073029,
+            "M15": 0.00028699
+          },
+          "trend": "COMPRESSING"
+        },
+        {
+          "canonical": "GBPCAD",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.269076,
+            "H4": 0.947791,
+            "H1": 0.819277,
+            "M15": 0.682731
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.210084,
+            "H4": 0.840336,
+            "H1": 0.134454,
+            "M15": 0.537815
+          },
+          "realized_vol_ratio": {
+            "D1": 1.471449,
+            "H4": 0.99801,
+            "H1": 1.044458,
+            "M15": 1.22696
+          },
+          "realized_vol": {
+            "D1": 0.00255304,
+            "H4": 0.00118011,
+            "H1": 0.00058736,
+            "M15": 0.00032929
+          },
+          "trend": "STABLE"
+        },
+        {
+          "canonical": "GBPNZD",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.393574,
+            "H4": 0.84739,
+            "H1": 0.497992,
+            "M15": 0.409639
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.470588,
+            "H4": 0.411765,
+            "H1": 0.857143,
+            "M15": 0.151261
+          },
+          "realized_vol_ratio": {
+            "D1": 0.773654,
+            "H4": 1.197015,
+            "H1": 0.735288,
+            "M15": 1.06745
+          },
+          "realized_vol": {
+            "D1": 0.00264428,
+            "H4": 0.00134122,
+            "H1": 0.00076728,
+            "M15": 0.00037314
+          },
+          "trend": "COMPRESSING"
+        },
+        {
+          "canonical": "CHFJPY",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.779116,
+            "H4": 0.771084,
+            "H1": 0.746988,
+            "M15": 0.562249
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.529412,
+            "H4": 0.638655,
+            "H1": 0.10084,
+            "M15": 0.243697
+          },
+          "realized_vol_ratio": {
+            "D1": 0.886399,
+            "H4": 0.592415,
+            "H1": 0.950005,
+            "M15": 0.967076
+          },
+          "realized_vol": {
+            "D1": 0.00554812,
+            "H4": 0.00174897,
+            "H1": 0.0010667,
+            "M15": 0.0004764
+          },
+          "trend": "STABLE"
+        },
+        {
+          "canonical": "AUDJPY",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.53012,
+            "H4": 0.763052,
+            "H1": 0.485944,
+            "M15": 0.385542
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.420168,
+            "H4": 0.058824,
+            "H1": 0.226891,
+            "M15": 0.773109
+          },
+          "realized_vol_ratio": {
+            "D1": 0.665249,
+            "H4": 0.653717,
+            "H1": 0.845703,
+            "M15": 1.16417
+          },
+          "realized_vol": {
+            "D1": 0.00509007,
+            "H4": 0.00224411,
+            "H1": 0.00121898,
+            "M15": 0.00046886
+          },
+          "trend": "COMPRESSING"
+        },
+        {
+          "canonical": "CADJPY",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.686747,
+            "H4": 0.582329,
+            "H1": 0.518072,
+            "M15": 0.542169
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.268908,
+            "H4": 0.218487,
+            "H1": 0.344538,
+            "M15": 0.840336
+          },
+          "realized_vol_ratio": {
+            "D1": 0.688494,
+            "H4": 1.019641,
+            "H1": 1.095966,
+            "M15": 1.053349
+          },
+          "realized_vol": {
+            "D1": 0.00555666,
+            "H4": 0.0017198,
+            "H1": 0.00089408,
+            "M15": 0.00045939
+          },
+          "trend": "STABLE"
+        },
+        {
+          "canonical": "NZDJPY",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.325301,
+            "H4": 0.538153,
+            "H1": 0.457831,
+            "M15": 0.285141
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.151261,
+            "H4": 0.12605,
+            "H1": 0.655462,
+            "M15": 0.537815
+          },
+          "realized_vol_ratio": {
+            "D1": 0.665902,
+            "H4": 0.696832,
+            "H1": 1.059077,
+            "M15": 1.128658
+          },
+          "realized_vol": {
+            "D1": 0.00520524,
+            "H4": 0.00213206,
+            "H1": 0.00095925,
+            "M15": 0.00056748
+          },
+          "trend": "STABLE"
+        },
+        {
+          "canonical": "AUDCHF",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.60241,
+            "H4": 0.963855,
+            "H1": 0.791165,
+            "M15": 0.477912
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.478992,
+            "H4": 0.932773,
+            "H1": 0.512605,
+            "M15": 0.789916
+          },
+          "realized_vol_ratio": {
+            "D1": 0.815806,
+            "H4": 0.614372,
+            "H1": 0.579958,
+            "M15": 1.202942
+          },
+          "realized_vol": {
+            "D1": 0.00398177,
+            "H4": 0.0019901,
+            "H1": 0.00142012,
+            "M15": 0.00036838
+          },
+          "trend": "COMPRESSING"
+        },
+        {
+          "canonical": "CADCHF",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.638554,
+            "H4": 0.975904,
+            "H1": 0.827309,
+            "M15": 0.409639
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.210084,
+            "H4": 0.991597,
+            "H1": 0.554622,
+            "M15": 0.663866
+          },
+          "realized_vol_ratio": {
+            "D1": 0.892796,
+            "H4": 0.943963,
+            "H1": 0.771902,
+            "M15": 0.782545
+          },
+          "realized_vol": {
+            "D1": 0.00336648,
+            "H4": 0.00131017,
+            "H1": 0.00098209,
+            "M15": 0.00031206
+          },
+          "trend": "COMPRESSING"
+        },
+        {
+          "canonical": "NZDCHF",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.60241,
+            "H4": 0.883534,
+            "H1": 0.795181,
+            "M15": 0.506024
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.705882,
+            "H4": 1.0,
+            "H1": 0.647059,
+            "M15": 0.478992
+          },
+          "realized_vol_ratio": {
+            "D1": 1.070451,
+            "H4": 0.601085,
+            "H1": 0.825589,
+            "M15": 1.093965
+          },
+          "realized_vol": {
+            "D1": 0.00372609,
+            "H4": 0.00167829,
+            "H1": 0.00110045,
+            "M15": 0.00044824
+          },
+          "trend": "COMPRESSING"
+        },
+        {
+          "canonical": "AUDCAD",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.53012,
+            "H4": 0.907631,
+            "H1": 0.333333,
+            "M15": 0.554217
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.352941,
+            "H4": 0.588235,
+            "H1": 0.033613,
+            "M15": 0.260504
+          },
+          "realized_vol_ratio": {
+            "D1": 1.108403,
+            "H4": 0.742062,
+            "H1": 0.539433,
+            "M15": 1.355135
+          },
+          "realized_vol": {
+            "D1": 0.00334782,
+            "H4": 0.00161887,
+            "H1": 0.00083162,
+            "M15": 0.00032342
+          },
+          "trend": "COMPRESSING"
+        },
+        {
+          "canonical": "AUDNZD",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.959839,
+            "H4": 0.951807,
+            "H1": 0.39759,
+            "M15": 0.044177
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.134454,
+            "H4": 0.865546,
+            "H1": 1.0,
+            "M15": 0.571429
+          },
+          "realized_vol_ratio": {
+            "D1": 0.761789,
+            "H4": 0.885015,
+            "H1": 0.692902,
+            "M15": 0.774303
+          },
+          "realized_vol": {
+            "D1": 0.00277246,
+            "H4": 0.00121894,
+            "H1": 0.00075737,
+            "M15": 0.00028972
+          },
+          "trend": "COMPRESSING"
+        },
+        {
+          "canonical": "NZDCAD",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.449799,
+            "H4": 0.746988,
+            "H1": 0.257028,
+            "M15": 0.429719
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.008403,
+            "H4": 0.462185,
+            "H1": 0.823529,
+            "M15": 0.336134
+          },
+          "realized_vol_ratio": {
+            "D1": 0.916843,
+            "H4": 1.07828,
+            "H1": 0.933657,
+            "M15": 1.254964
+          },
+          "realized_vol": {
+            "D1": 0.00381218,
+            "H4": 0.00143391,
+            "H1": 0.00072196,
+            "M15": 0.0004184
+          },
+          "trend": "STABLE"
+        },
+        {
+          "canonical": "XAUUSD",
+          "group": "METAL",
+          "atr_percentile": {
+            "D1": 0.212851,
+            "H4": 0.550201,
+            "H1": 0.497992,
+            "M15": 0.289157
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.436975,
+            "H4": 0.184874,
+            "H1": 0.159664,
+            "M15": 0.109244
+          },
+          "realized_vol_ratio": {
+            "D1": 0.923118,
+            "H4": 1.369216,
+            "H1": 0.81903,
+            "M15": 0.979667
+          },
+          "realized_vol": {
+            "D1": 0.01568251,
+            "H4": 0.00586768,
+            "H1": 0.00303101,
+            "M15": 0.00127895
+          },
+          "trend": "COMPRESSING"
+        },
+        {
+          "canonical": "XAGUSD",
+          "group": "METAL",
+          "atr_percentile": {
+            "D1": 0.192771,
+            "H4": 0.429719,
+            "H1": 0.75502,
+            "M15": 0.369478
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.352941,
+            "H4": 0.210084,
+            "H1": 0.89916,
+            "M15": 0.117647
+          },
+          "realized_vol_ratio": {
+            "D1": 0.950578,
+            "H4": 1.274286,
+            "H1": 0.744199,
+            "M15": 0.996087
+          },
+          "realized_vol": {
+            "D1": 0.02411579,
+            "H4": 0.00948661,
+            "H1": 0.0052621,
+            "M15": 0.00222314
+          },
+          "trend": "COMPRESSING"
+        },
+        {
+          "canonical": "US500",
+          "group": "EQUITY_INDEX",
+          "atr_percentile": {
+            "D1": 0.2249,
+            "H4": 0.919679,
+            "H1": 0.461847,
+            "M15": 0.453815
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.176471,
+            "H4": 0.546218,
+            "H1": 0.0,
+            "M15": 0.403361
+          },
+          "realized_vol_ratio": {
+            "D1": 0.867655,
+            "H4": 0.851606,
+            "H1": 0.490102,
+            "M15": 1.474266
+          },
+          "realized_vol": {
+            "D1": 0.00707882,
+            "H4": 0.00267934,
+            "H1": 0.00131341,
+            "M15": 0.00050634
+          },
+          "trend": "COMPRESSING"
+        },
+        {
+          "canonical": "US100",
+          "group": "EQUITY_INDEX",
+          "atr_percentile": {
+            "D1": 0.401606,
+            "H4": 0.899598,
+            "H1": 0.449799,
+            "M15": 0.373494
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.529412,
+            "H4": 0.613445,
+            "H1": 0.10084,
+            "M15": 0.260504
+          },
+          "realized_vol_ratio": {
+            "D1": 0.865987,
+            "H4": 0.825414,
+            "H1": 0.516203,
+            "M15": 1.300705
+          },
+          "realized_vol": {
+            "D1": 0.01155763,
+            "H4": 0.00395042,
+            "H1": 0.00201266,
+            "M15": 0.00074631
+          },
+          "trend": "COMPRESSING"
+        },
+        {
+          "canonical": "US30",
+          "group": "EQUITY_INDEX",
+          "atr_percentile": {
+            "D1": 0.353414,
+            "H4": 0.923695,
+            "H1": 0.421687,
+            "M15": 0.554217
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.546218,
+            "H4": 0.537815,
+            "H1": 0.008403,
+            "M15": 0.613445
+          },
+          "realized_vol_ratio": {
+            "D1": 0.769081,
+            "H4": 1.010432,
+            "H1": 0.541126,
+            "M15": 1.471094
+          },
+          "realized_vol": {
+            "D1": 0.00771433,
+            "H4": 0.00303034,
+            "H1": 0.00168859,
+            "M15": 0.00064091
+          },
+          "trend": "COMPRESSING"
+        },
+        {
+          "canonical": "GER40",
+          "group": "EQUITY_INDEX",
+          "atr_percentile": {
+            "D1": 0.457831,
+            "H4": 0.963855,
+            "H1": 0.879518,
+            "M15": 0.630522
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.092437,
+            "H4": 0.789916,
+            "H1": 0.033613,
+            "M15": 0.823529
+          },
+          "realized_vol_ratio": {
+            "D1": 1.124627,
+            "H4": 0.689213,
+            "H1": 1.065586,
+            "M15": 1.023795
+          },
+          "realized_vol": {
+            "D1": 0.00758588,
+            "H4": 0.00383037,
+            "H1": 0.00222394,
+            "M15": 0.00122298
+          },
+          "trend": "STABLE"
+        },
+        {
+          "canonical": "UK100",
+          "group": "EQUITY_INDEX",
+          "atr_percentile": {
+            "D1": 0.48996,
+            "H4": 0.951807,
+            "H1": 0.911647,
+            "M15": 0.650602
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.512605,
+            "H4": 0.87395,
+            "H1": 0.336134,
+            "M15": 0.789916
+          },
+          "realized_vol_ratio": {
+            "D1": 1.05248,
+            "H4": 0.607783,
+            "H1": 0.999151,
+            "M15": 1.092566
+          },
+          "realized_vol": {
+            "D1": 0.00589325,
+            "H4": 0.00311074,
+            "H1": 0.00229608,
+            "M15": 0.00120493
+          },
+          "trend": "STABLE"
+        },
+        {
+          "canonical": "JP225",
+          "group": "EQUITY_INDEX",
+          "atr_percentile": {
+            "D1": 0.546185,
+            "H4": 0.638554,
+            "H1": 0.578313,
+            "M15": 0.096386
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.268908,
+            "H4": 0.89916,
+            "H1": 0.02521,
+            "M15": 0.344538
+          },
+          "realized_vol_ratio": {
+            "D1": 0.860692,
+            "H4": 0.736526,
+            "H1": 0.941102,
+            "M15": 1.068798
+          },
+          "realized_vol": {
+            "D1": 0.01470203,
+            "H4": 0.00585677,
+            "H1": 0.00230619,
+            "M15": 0.0013317
+          },
+          "trend": "STABLE"
+        },
+        {
+          "canonical": "OIL",
+          "group": "ENERGY",
+          "atr_percentile": {
+            "D1": 0.662651,
+            "H4": 0.75502,
+            "H1": 0.630522,
+            "M15": 0.767068
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.033613,
+            "H4": 0.168067,
+            "H1": 0.260504,
+            "M15": 0.462185
+          },
+          "realized_vol_ratio": {
+            "D1": 0.806892,
+            "H4": 1.144765,
+            "H1": 0.862827,
+            "M15": 1.262463
+          },
+          "realized_vol": {
+            "D1": 0.03343501,
+            "H4": 0.01297151,
+            "H1": 0.00580754,
+            "M15": 0.00297827
+          },
+          "trend": "STABLE"
+        },
+        {
+          "canonical": "USDSEK",
+          "group": "FX",
+          "atr_percentile": {
+            "D1": 0.389558,
+            "H4": 1.0,
+            "H1": 0.859438,
+            "M15": 0.710843
+          },
+          "bollinger_width_percentile": {
+            "D1": 0.957983,
+            "H4": 0.378151,
+            "H1": 0.932773,
+            "M15": 0.302521
+          },
+          "realized_vol_ratio": {
+            "D1": 0.585118,
+            "H4": 1.304567,
+            "H1": 1.233022,
+            "M15": 1.160882
+          },
+          "realized_vol": {
+            "D1": 0.00465065,
+            "H4": 0.00215656,
+            "H1": 0.00144916,
+            "M15": 0.0008257
+          },
+          "trend": "EXPANDING"
+        }
+      ],
+      "quality": {
+        "dimension": "volatility",
+        "quality": "GOOD",
+        "coverage": 1.0,
+        "reasons": []
+      },
+      "reasons": [
+        "Percentile ATR mediano (H4/H1): 0.85."
+      ]
+    },
+    "implied_volatility": {
+      "source": "nessuno",
+      "intended_use": "STRUCTURAL_CONTEXT",
+      "value": null,
+      "day": null,
+      "percentile_1y": null,
+      "change_20d": null,
+      "level": "UNKNOWN",
+      "trend": "UNKNOWN",
+      "quality": {
+        "dimension": "implied_volatility",
+        "quality": "INSUFFICIENT",
+        "coverage": 0.0,
+        "reasons": [
+          "VIX: nessuna fonte configurata"
+        ]
+      }
+    },
+    "rates": {
+      "source": "nessuno",
+      "intended_use": "STRUCTURAL_CONTEXT",
+      "day": null,
+      "yields": {},
+      "change_20d_bp": {},
+      "slope_2s10s_bp": null,
+      "slope_3m10y_bp": null,
+      "curve_inverted": null,
+      "ten_year_trend": "UNKNOWN",
+      "quality": {
+        "dimension": "rates",
+        "quality": "INSUFFICIENT",
+        "coverage": 0.0,
+        "reasons": [
+          "curva dei rendimenti: nessuna fonte configurata"
+        ]
+      }
+    },
+    "dollar_index": {
+      "source": "derivato: formula ICE su EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF (XM)",
+      "intended_use": "CROSS_CHECK",
+      "value": 102.2202,
+      "by_timeframe": {
+        "D1": 1.988968,
+        "H4": 1.269084,
+        "H1": 0.703589,
+        "M15": 0.100061
+      },
+      "score": 1.327036,
+      "label": "STRONG",
+      "correlation_with_usd_strength": 0.9477,
+      "agrees_with_usd_strength": true,
+      "missing_components": [],
+      "quality": {
+        "dimension": "dollar_index",
+        "quality": "GOOD",
+        "coverage": 1.0,
+        "reasons": []
+      }
+    },
+    "currency_strength": {
+      "currencies": [
+        {
+          "currency": "USD",
+          "score": 1.088942,
+          "label": "STRONG",
+          "rank": 1,
+          "by_timeframe": {
+            "D1": 1.899728,
+            "H4": 0.637089,
+            "H1": 0.487524,
+            "M15": 0.404189
+          },
+          "crosses_used": 7,
+          "crosses_expected": 7,
+          "timeframes_agree": true
+        },
+        {
+          "currency": "GBP",
+          "score": 0.681115,
+          "label": "STRONG",
+          "rank": 2,
+          "by_timeframe": {
+            "D1": 0.524817,
+            "H4": 0.976359,
+            "H1": 0.767677,
+            "M15": 0.247454
+          },
+          "crosses_used": 7,
+          "crosses_expected": 7,
+          "timeframes_agree": true
+        },
+        {
+          "currency": "CHF",
+          "score": 0.456338,
+          "label": "NEUTRAL",
+          "rank": 3,
+          "by_timeframe": {
+            "D1": 0.146872,
+            "H4": 1.709144,
+            "H1": -0.149258,
+            "M15": -0.853022
+          },
+          "crosses_used": 7,
+          "crosses_expected": 7,
+          "timeframes_agree": false
+        },
+        {
+          "currency": "JPY",
+          "score": 0.00704,
+          "label": "NEUTRAL",
+          "rank": 4,
+          "by_timeframe": {
+            "D1": 0.728189,
+            "H4": -0.231908,
+            "H1": -0.297191,
+            "M15": -1.552246
+          },
+          "crosses_used": 7,
+          "crosses_expected": 7,
+          "timeframes_agree": false
+        },
+        {
+          "currency": "CAD",
+          "score": 0.004325,
+          "label": "NEUTRAL",
+          "rank": 5,
+          "by_timeframe": {
+            "D1": -0.535123,
+            "H4": -0.161289,
+            "H1": 0.707642,
+            "M15": 1.252323
+          },
+          "crosses_used": 7,
+          "crosses_expected": 7,
+          "timeframes_agree": false
+        },
+        {
+          "currency": "AUD",
+          "score": -0.126496,
+          "label": "MIXED",
+          "rank": 6,
+          "by_timeframe": {
+            "D1": -1.08077,
+            "H4": -0.122524,
+            "H1": 0.908491,
+            "M15": 1.608706
+          },
+          "crosses_used": 7,
+          "crosses_expected": 7,
+          "timeframes_agree": false
+        },
+        {
+          "currency": "EUR",
+          "score": -1.163734,
+          "label": "WEAK",
+          "rank": 7,
+          "by_timeframe": {
+            "D1": -1.115315,
+            "H4": -1.946445,
+            "H1": -0.93949,
+            "M15": 0.542239
+          },
+          "crosses_used": 7,
+          "crosses_expected": 7,
+          "timeframes_agree": false
+        },
+        {
+          "currency": "NZD",
+          "score": -1.36927,
+          "label": "WEAK",
+          "rank": 8,
+          "by_timeframe": {
+            "D1": -2.074632,
+            "H4": -0.984364,
+            "H1": -0.947574,
+            "M15": -0.545931
+          },
+          "crosses_used": 7,
+          "crosses_expected": 7,
+          "timeframes_agree": true
+        }
+      ],
+      "quality": {
+        "dimension": "currency_strength",
+        "quality": "GOOD",
+        "coverage": 1.0,
+        "reasons": []
+      },
+      "method": "Modello a grafo robusto: per ogni barra, rendimenti delle 8 valute stimati con minimi quadrati pesati (peso = 1/varianza del cross) dalle equazioni r(A,B) = x(A) − x(B), con Σx = 0; cross fermi esclusi; outlier (residuo oltre 6 deviazioni robuste e 1 pip) rimossi e barra ristimata. Poi, per valuta: rendimento su 20 barre diviso per la sua volatilità. Composito D1 .4, H4 .3, H1 .2, M15 .1. Misura primaria delle valute; il DXY ricostruito la verifica.",
+      "graph_residual": {
+        "D1": 0.00022912,
+        "H4": 1.288e-05,
+        "H1": 1.323e-05,
+        "M15": 1.14e-05
+      },
+      "bars_estimated": {
+        "D1": 399,
+        "H4": 399,
+        "H1": 399,
+        "M15": 399
+      },
+      "outliers_removed": {
+        "D1": 7,
+        "H4": 4,
+        "H1": 2,
+        "M15": 3
+      },
+      "crosses_excluded": {
+        "D1": [],
+        "H4": [],
+        "H1": [],
+        "M15": []
+      }
+    },
+    "relative_strength": {
+      "entries": [
+        {
+          "name": "USD",
+          "group": "CURRENCY",
+          "score": 1.088942,
+          "rank_overall": 1,
+          "rank_in_group": 1,
+          "measured_against": "paniere delle altre sette valute",
+          "by_timeframe": {
+            "D1": 1.899728,
+            "H4": 0.637089,
+            "H1": 0.487524,
+            "M15": 0.404189
+          }
+        },
+        {
+          "name": "JP225",
+          "group": "EQUITY_INDEX",
+          "score": 0.885951,
+          "rank_overall": 2,
+          "rank_in_group": 1,
+          "measured_against": "JPY",
+          "by_timeframe": {
+            "D1": 0.845525,
+            "H4": 1.959115,
+            "H1": 0.101369,
+            "M15": -0.602672
+          }
+        },
+        {
+          "name": "GBP",
+          "group": "CURRENCY",
+          "score": 0.681115,
+          "rank_overall": 3,
+          "rank_in_group": 2,
+          "measured_against": "paniere delle altre sette valute",
+          "by_timeframe": {
+            "D1": 0.524817,
+            "H4": 0.976359,
+            "H1": 0.767677,
+            "M15": 0.247454
+          }
+        },
+        {
+          "name": "CHF",
+          "group": "CURRENCY",
+          "score": 0.456338,
+          "rank_overall": 4,
+          "rank_in_group": 3,
+          "measured_against": "paniere delle altre sette valute",
+          "by_timeframe": {
+            "D1": 0.146872,
+            "H4": 1.709144,
+            "H1": -0.149258,
+            "M15": -0.853022
+          }
+        },
+        {
+          "name": "US100",
+          "group": "EQUITY_INDEX",
+          "score": 0.389372,
+          "rank_overall": 5,
+          "rank_in_group": 2,
+          "measured_against": "USD",
+          "by_timeframe": {
+            "D1": 0.834521,
+            "H4": 0.734738,
+            "H1": -0.48097,
+            "M15": -0.686638
+          }
+        },
+        {
+          "name": "OIL",
+          "group": "ENERGY",
+          "score": 0.146043,
+          "rank_overall": 6,
+          "rank_in_group": 1,
+          "measured_against": "USD",
+          "by_timeframe": {
+            "D1": 0.152723,
+            "H4": 0.119439,
+            "H1": 0.033452,
+            "M15": 0.424317
+          }
+        },
+        {
+          "name": "US500",
+          "group": "EQUITY_INDEX",
+          "score": 0.077318,
+          "rank_overall": 7,
+          "rank_in_group": 3,
+          "measured_against": "USD",
+          "by_timeframe": {
+            "D1": 0.057685,
+            "H4": 0.356525,
+            "H1": -0.370901,
+            "M15": 0.214669
+          }
+        },
+        {
+          "name": "JPY",
+          "group": "CURRENCY",
+          "score": 0.00704,
+          "rank_overall": 8,
+          "rank_in_group": 4,
+          "measured_against": "paniere delle altre sette valute",
+          "by_timeframe": {
+            "D1": 0.728189,
+            "H4": -0.231908,
+            "H1": -0.297191,
+            "M15": -1.552246
+          }
+        },
+        {
+          "name": "CAD",
+          "group": "CURRENCY",
+          "score": 0.004325,
+          "rank_overall": 9,
+          "rank_in_group": 5,
+          "measured_against": "paniere delle altre sette valute",
+          "by_timeframe": {
+            "D1": -0.535123,
+            "H4": -0.161289,
+            "H1": 0.707642,
+            "M15": 1.252323
+          }
+        },
+        {
+          "name": "AUD",
+          "group": "CURRENCY",
+          "score": -0.126496,
+          "rank_overall": 10,
+          "rank_in_group": 6,
+          "measured_against": "paniere delle altre sette valute",
+          "by_timeframe": {
+            "D1": -1.08077,
+            "H4": -0.122524,
+            "H1": 0.908491,
+            "M15": 1.608706
+          }
+        },
+        {
+          "name": "XAGUSD",
+          "group": "METAL",
+          "score": -0.167247,
+          "rank_overall": 11,
+          "rank_in_group": 1,
+          "measured_against": "USD",
+          "by_timeframe": {
+            "D1": -0.856465,
+            "H4": 0.182849,
+            "H1": 0.633487,
+            "M15": -0.062128
+          }
+        },
+        {
+          "name": "XAUUSD",
+          "group": "METAL",
+          "score": -0.414983,
+          "rank_overall": 12,
+          "rank_in_group": 2,
+          "measured_against": "USD",
+          "by_timeframe": {
+            "D1": -0.964685,
+            "H4": -0.09044,
+            "H1": -0.051283,
+            "M15": 0.0828
+          }
+        },
+        {
+          "name": "GER40",
+          "group": "EQUITY_INDEX",
+          "score": -0.45646,
+          "rank_overall": 13,
+          "rank_in_group": 4,
+          "measured_against": "EUR",
+          "by_timeframe": {
+            "D1": -0.903681,
+            "H4": -0.64113,
+            "H1": 0.22317,
+            "M15": 0.527174
+          }
+        },
+        {
+          "name": "US30",
+          "group": "EQUITY_INDEX",
+          "score": -0.566732,
+          "rank_overall": 14,
+          "rank_in_group": 5,
+          "measured_against": "USD",
+          "by_timeframe": {
+            "D1": -1.133161,
+            "H4": -0.481982,
+            "H1": -0.003026,
+            "M15": 0.317327
+          }
+        },
+        {
+          "name": "UK100",
+          "group": "EQUITY_INDEX",
+          "score": -0.692619,
+          "rank_overall": 15,
+          "rank_in_group": 6,
+          "measured_against": "GBP",
+          "by_timeframe": {
+            "D1": -1.185982,
+            "H4": -1.11543,
+            "H1": 0.299089,
+            "M15": 0.565849
+          }
+        },
+        {
+          "name": "EUR",
+          "group": "CURRENCY",
+          "score": -1.163734,
+          "rank_overall": 16,
+          "rank_in_group": 7,
+          "measured_against": "paniere delle altre sette valute",
+          "by_timeframe": {
+            "D1": -1.115315,
+            "H4": -1.946445,
+            "H1": -0.93949,
+            "M15": 0.542239
+          }
+        },
+        {
+          "name": "NZD",
+          "group": "CURRENCY",
+          "score": -1.36927,
+          "rank_overall": 17,
+          "rank_in_group": 8,
+          "measured_against": "paniere delle altre sette valute",
+          "by_timeframe": {
+            "D1": -2.074632,
+            "H4": -0.984364,
+            "H1": -0.947574,
+            "M15": -0.545931
+          }
+        }
+      ],
+      "quality": {
+        "dimension": "relative_strength",
+        "quality": "GOOD",
+        "coverage": 1.0,
+        "reasons": []
+      },
+      "note": "Classifica in unità di momentum normalizzato per volatilità. Le valute sono misurate contro il paniere delle altre sette, metalli e indici contro la propria valuta di quotazione: il confronto fra gruppi è indicativo."
+    },
+    "equities": {
+      "group": "equities",
+      "label": "NEUTRAL",
+      "score": -0.060528,
+      "breadth": 0.5,
+      "by_timeframe": {
+        "D1": -0.247516,
+        "H4": 0.135306,
+        "H1": -0.038545,
+        "M15": 0.055952
+      },
+      "members": {
+        "GER40": -0.45646,
+        "JP225": 0.885951,
+        "UK100": -0.692619,
+        "US100": 0.389372,
+        "US30": -0.566732,
+        "US500": 0.077318
+      },
+      "timeframes_agree": false,
+      "quality": {
+        "dimension": "equities",
+        "quality": "GOOD",
+        "coverage": 1.0,
+        "reasons": []
+      },
+      "note": ""
+    },
+    "metals": {
+      "group": "metals",
+      "label": "NEUTRAL",
+      "score": -0.291115,
+      "breadth": 1.0,
+      "by_timeframe": {
+        "D1": -0.910575,
+        "H4": 0.046205,
+        "H1": 0.291102,
+        "M15": 0.010336
+      },
+      "members": {
+        "XAGUSD": -0.167247,
+        "XAUUSD": -0.414983
+      },
+      "timeframes_agree": false,
+      "quality": {
+        "dimension": "metals",
+        "quality": "GOOD",
+        "coverage": 1.0,
+        "reasons": []
+      },
+      "note": ""
+    },
+    "intermarket": {
+      "state": "MIXED",
+      "relationships": [
+        {
+          "a": "US500",
+          "b": "GER40",
+          "timeframe": "H1",
+          "method": "log_returns",
+          "current_correlation": 0.548682,
+          "current_sample": 40,
+          "baseline_correlation": 0.673076,
+          "baseline_sample": 355,
+          "baseline_significant": true,
+          "baseline_dispersion": 0.223855,
+          "stability": 1.0,
+          "difference_z": -1.1564,
+          "state": "CONSISTENT",
+          "note": "Corrente +0.55 compatibile con la base +0.67 (z -1.2)."
+        },
+        {
+          "a": "US500",
+          "b": "JP225",
+          "timeframe": "H1",
+          "method": "log_returns",
+          "current_correlation": 0.524534,
+          "current_sample": 40,
+          "baseline_correlation": 0.655621,
+          "baseline_sample": 359,
+          "baseline_significant": true,
+          "baseline_dispersion": 0.183695,
+          "stability": 1.0,
+          "difference_z": -1.1725,
+          "state": "CONSISTENT",
+          "note": "Corrente +0.52 compatibile con la base +0.66 (z -1.2)."
+        },
+        {
+          "a": "US100",
+          "b": "US30",
+          "timeframe": "H1",
+          "method": "log_returns",
+          "current_correlation": 0.565898,
+          "current_sample": 40,
+          "baseline_correlation": 0.530687,
+          "baseline_sample": 359,
+          "baseline_significant": true,
+          "baseline_dispersion": 0.13149,
+          "stability": 0.8438,
+          "difference_z": 0.2916,
+          "state": "CONSISTENT",
+          "note": "Corrente +0.57 compatibile con la base +0.53 (z +0.3)."
+        },
+        {
+          "a": "XAUUSD",
+          "b": "XAGUSD",
+          "timeframe": "H1",
+          "method": "log_returns",
+          "current_correlation": 0.917014,
+          "current_sample": 40,
+          "baseline_correlation": 0.883427,
+          "baseline_sample": 359,
+          "baseline_significant": true,
+          "baseline_dispersion": 0.073118,
+          "stability": 1.0,
+          "difference_z": 1.0349,
+          "state": "CONSISTENT",
+          "note": "Corrente +0.92 compatibile con la base +0.88 (z +1.0)."
+        },
+        {
+          "a": "XAUUSD",
+          "b": "EURUSD",
+          "timeframe": "H1",
+          "method": "log_returns",
+          "current_correlation": 0.375753,
+          "current_sample": 40,
+          "baseline_correlation": 0.502855,
+          "baseline_sample": 342,
+          "baseline_significant": true,
+          "baseline_dispersion": 0.197762,
+          "stability": 1.0,
+          "difference_z": -0.9127,
+          "state": "CONSISTENT",
+          "note": "Corrente +0.38 compatibile con la base +0.50 (z -0.9)."
+        },
+        {
+          "a": "XAUUSD",
+          "b": "US500",
+          "timeframe": "H1",
+          "method": "log_returns",
+          "current_correlation": 0.617384,
+          "current_sample": 40,
+          "baseline_correlation": 0.532734,
+          "baseline_sample": 359,
+          "baseline_significant": true,
+          "baseline_dispersion": 0.241092,
+          "stability": 1.0,
+          "difference_z": 0.7342,
+          "state": "CONSISTENT",
+          "note": "Corrente +0.62 compatibile con la base +0.53 (z +0.7)."
+        },
+        {
+          "a": "AUDJPY",
+          "b": "US500",
+          "timeframe": "H1",
+          "method": "log_returns",
+          "current_correlation": 0.079815,
+          "current_sample": 40,
+          "baseline_correlation": 0.086325,
+          "baseline_sample": 342,
+          "baseline_significant": false,
+          "baseline_dispersion": 0.241155,
+          "stability": 0.6452,
+          "difference_z": -0.0379,
+          "state": "NO_BASELINE",
+          "note": "Base +0.09 su 342 rendimenti non significativa o trascurabile: non c'è una relazione abituale da verificare."
+        },
+        {
+          "a": "USDJPY",
+          "b": "US500",
+          "timeframe": "H1",
+          "method": "log_returns",
+          "current_correlation": -0.594564,
+          "current_sample": 40,
+          "baseline_correlation": -0.322881,
+          "baseline_sample": 342,
+          "baseline_significant": true,
+          "baseline_dispersion": 0.282222,
+          "stability": 0.871,
+          "difference_z": -2.0206,
+          "state": "CONSISTENT",
+          "note": "Corrente -0.59 compatibile con la base -0.32 (z -2.0)."
+        },
+        {
+          "a": "USDCAD",
+          "b": "OIL",
+          "timeframe": "H1",
+          "method": "log_returns",
+          "current_correlation": -0.028928,
+          "current_sample": 40,
+          "baseline_correlation": 0.037985,
+          "baseline_sample": 342,
+          "baseline_significant": false,
+          "baseline_dispersion": 0.305303,
+          "stability": 0.5806,
+          "difference_z": -0.3866,
+          "state": "NO_BASELINE",
+          "note": "Base +0.04 su 342 rendimenti non significativa o trascurabile: non c'è una relazione abituale da verificare."
+        },
+        {
+          "a": "US500",
+          "b": "GER40",
+          "timeframe": "D1",
+          "method": "log_returns",
+          "current_correlation": 0.65737,
+          "current_sample": 40,
+          "baseline_correlation": 0.787124,
+          "baseline_sample": 351,
+          "baseline_significant": true,
+          "baseline_dispersion": 0.150441,
+          "stability": 1.0,
+          "difference_z": -1.5942,
+          "state": "CONSISTENT",
+          "note": "Corrente +0.66 compatibile con la base +0.79 (z -1.6)."
+        },
+        {
+          "a": "US500",
+          "b": "JP225",
+          "timeframe": "D1",
+          "method": "log_returns",
+          "current_correlation": 0.5704,
+          "current_sample": 40,
+          "baseline_correlation": 0.758637,
+          "baseline_sample": 359,
+          "baseline_significant": true,
+          "baseline_dispersion": 0.125598,
+          "stability": 1.0,
+          "difference_z": -1.9966,
+          "state": "CONSISTENT",
+          "note": "Corrente +0.57 compatibile con la base +0.76 (z -2.0)."
+        },
+        {
+          "a": "US100",
+          "b": "US30",
+          "timeframe": "D1",
+          "method": "log_returns",
+          "current_correlation": 0.570443,
+          "current_sample": 40,
+          "baseline_correlation": 0.791963,
+          "baseline_sample": 359,
+          "baseline_significant": true,
+          "baseline_dispersion": 0.163132,
+          "stability": 1.0,
+          "difference_z": -2.4807,
+          "state": "WEAKENING",
+          "note": "Corrente +0.57 più debole della base +0.79 (z -2.5)."
+        },
+        {
+          "a": "XAUUSD",
+          "b": "XAGUSD",
+          "timeframe": "D1",
+          "method": "log_returns",
+          "current_correlation": 0.919826,
+          "current_sample": 40,
+          "baseline_correlation": 0.773796,
+          "baseline_sample": 359,
+          "baseline_significant": true,
+          "baseline_dispersion": 0.185883,
+          "stability": 1.0,
+          "difference_z": 3.2315,
+          "state": "CONSISTENT",
+          "note": "Corrente +0.92 compatibile con la base +0.77 (z +3.2)."
+        },
+        {
+          "a": "XAUUSD",
+          "b": "EURUSD",
+          "timeframe": "D1",
+          "method": "log_returns",
+          "current_correlation": 0.51775,
+          "current_sample": 40,
+          "baseline_correlation": 0.437164,
+          "baseline_sample": 353,
+          "baseline_significant": true,
+          "baseline_dispersion": 0.339294,
+          "stability": 1.0,
+          "difference_z": 0.6047,
+          "state": "CONSISTENT",
+          "note": "Corrente +0.52 compatibile con la base +0.44 (z +0.6)."
+        },
+        {
+          "a": "XAUUSD",
+          "b": "US500",
+          "timeframe": "D1",
+          "method": "log_returns",
+          "current_correlation": 0.424953,
+          "current_sample": 40,
+          "baseline_correlation": 0.161171,
+          "baseline_sample": 358,
+          "baseline_significant": false,
+          "baseline_dispersion": 0.431121,
+          "stability": 0.6562,
+          "difference_z": 1.6852,
+          "state": "NO_BASELINE",
+          "note": "Base +0.16 su 358 rendimenti non significativa o trascurabile: non c'è una relazione abituale da verificare."
+        },
+        {
+          "a": "AUDJPY",
+          "b": "US500",
+          "timeframe": "D1",
+          "method": "log_returns",
+          "current_correlation": -0.115567,
+          "current_sample": 40,
+          "baseline_correlation": 0.604727,
+          "baseline_sample": 354,
+          "baseline_significant": true,
+          "baseline_dispersion": 0.357974,
+          "stability": 1.0,
+          "difference_z": -4.7247,
+          "state": "WEAKENING",
+          "note": "Corrente -0.12 più debole della base +0.60 (z -4.7)."
+        },
+        {
+          "a": "USDJPY",
+          "b": "US500",
+          "timeframe": "D1",
+          "method": "log_returns",
+          "current_correlation": -0.448098,
+          "current_sample": 40,
+          "baseline_correlation": 0.12958,
+          "baseline_sample": 354,
+          "baseline_significant": false,
+          "baseline_dispersion": 0.478052,
+          "stability": 0.4375,
+          "difference_z": -3.5443,
+          "state": "NO_BASELINE",
+          "note": "Base +0.13 su 354 rendimenti non significativa o trascurabile: non c'è una relazione abituale da verificare."
+        },
+        {
+          "a": "USDCAD",
+          "b": "OIL",
+          "timeframe": "D1",
+          "method": "log_returns",
+          "current_correlation": -0.192774,
+          "current_sample": 40,
+          "baseline_correlation": -0.015774,
+          "baseline_sample": 353,
+          "baseline_significant": false,
+          "baseline_dispersion": 0.345168,
+          "stability": 0.5,
+          "difference_z": -1.038,
+          "state": "NO_BASELINE",
+          "note": "Base -0.02 su 353 rendimenti non significativa o trascurabile: non c'è una relazione abituale da verificare."
+        }
+      ],
+      "consistent": 11,
+      "weakening": 2,
+      "diverging": 0,
+      "unstable": 0,
+      "quality": {
+        "dimension": "intermarket",
+        "quality": "GOOD",
+        "coverage": 1.0,
+        "reasons": []
+      }
+    },
+    "macro_event_risk": {
+      "calendar_provider": "nessuno",
+      "calendar_state": "NOT_CONFIGURED",
+      "calendar_available": false,
+      "calendar_coverage_end": null,
+      "calendar_has_actuals": false,
+      "calendar_level": "UNKNOWN",
+      "calendar_reason": "Calendario economico: nessuna fonte configurata.",
+      "active_windows": [],
+      "upcoming_events": [],
+      "events": [],
+      "next_high_impact": {},
+      "market_implied_uncertainty": "MODERATE",
+      "drivers": [
+        "volatilità elevata"
+      ],
+      "quality": {
+        "dimension": "macro_event_risk",
+        "quality": "DEGRADED",
+        "coverage": 0.0,
+        "reasons": [
+          "Calendario economico: nessuna fonte configurata."
+        ]
+      }
+    },
+    "conflicts": [
+      {
+        "code": "INDIZI_RISCHIO_DISCORDI",
+        "dimensions": [
+          "risk_sentiment"
+        ],
+        "severity": "MEDIUM",
+        "description": "Solo il 50% (pesato) degli indizi di rischio concorda."
+      }
+    ],
+    "instruments": [
+      {
+        "canonical": "AUDCAD",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -0.422847,
+          "H4": -0.0195,
+          "H1": 0.412217,
+          "M15": 0.17434
+        },
+        "score": -0.075111,
+        "label": "NEUTRAL",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "AUDCHF",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -0.734453,
+          "H4": -1.082728,
+          "H1": 0.534603,
+          "M15": 1.419606
+        },
+        "score": -0.369718,
+        "label": "MIXED",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "AUDJPY",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -1.108668,
+          "H4": 0.087081,
+          "H1": 0.694421,
+          "M15": 1.992333
+        },
+        "score": -0.079225,
+        "label": "MIXED",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "AUDNZD",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": 0.837844,
+          "H4": 0.691674,
+          "H1": 1.431257,
+          "M15": 1.644378
+        },
+        "score": 0.993329,
+        "label": "STRONG",
+        "timeframes_agree": true,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "AUDUSD",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -2.015785,
+          "H4": -0.426458,
+          "H1": 0.216966,
+          "M15": 0.396873
+        },
+        "score": -0.851171,
+        "label": "WEAK",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "CADCHF",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -0.456773,
+          "H4": -1.610939,
+          "H1": 0.402876,
+          "M15": 1.538777
+        },
+        "score": -0.431538,
+        "label": "MIXED",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "CADJPY",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -0.776642,
+          "H4": 0.135012,
+          "H1": 0.55745,
+          "M15": 1.919705
+        },
+        "score": 0.033307,
+        "label": "NEUTRAL",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "CHFJPY",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -0.513557,
+          "H4": 1.343898,
+          "H1": 0.091421,
+          "M15": 0.853389
+        },
+        "score": 0.30137,
+        "label": "NEUTRAL",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "EURAUD",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": 0.233295,
+          "H4": -1.202082,
+          "H1": -1.626079,
+          "M15": -0.16344
+        },
+        "score": -0.608866,
+        "label": "WEAK",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "EURCAD",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -0.241371,
+          "H4": -1.365732,
+          "H1": -1.005062,
+          "M15": -0.043302
+        },
+        "score": -0.711611,
+        "label": "WEAK",
+        "timeframes_agree": true,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "EURCHF",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -0.628927,
+          "H4": -2.060651,
+          "H1": -0.416687,
+          "M15": 0.839584
+        },
+        "score": -0.869145,
+        "label": "WEAK",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "EURGBP",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -1.593215,
+          "H4": -2.733438,
+          "H1": -1.678485,
+          "M15": 0.462667
+        },
+        "score": -1.746748,
+        "label": "WEAK",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "EURJPY",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -0.914876,
+          "H4": -0.694755,
+          "H1": -0.357943,
+          "M15": 1.163807
+        },
+        "score": -0.529585,
+        "label": "WEAK",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "EURNZD",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": 1.099462,
+          "H4": -0.679409,
+          "H1": -0.268519,
+          "M15": 0.827506
+        },
+        "score": 0.265009,
+        "label": "NEUTRAL",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "EURUSD",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -2.356157,
+          "H4": -1.603873,
+          "H1": -0.805786,
+          "M15": 0.136108
+        },
+        "score": -1.571171,
+        "label": "WEAK",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "GBPAUD",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": 1.028605,
+          "H4": 0.577536,
+          "H1": -0.407386,
+          "M15": -0.930631
+        },
+        "score": 0.410163,
+        "label": "MIXED",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "GBPCAD",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": 0.752722,
+          "H4": 0.72437,
+          "H1": 0.058549,
+          "M15": -0.612575
+        },
+        "score": 0.468852,
+        "label": "NEUTRAL",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "GBPCHF",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": 0.13194,
+          "H4": -0.733719,
+          "H1": 0.373497,
+          "M15": 0.734014
+        },
+        "score": -0.019239,
+        "label": "NEUTRAL",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "GBPJPY",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -0.441562,
+          "H4": 0.622885,
+          "H1": 0.532892,
+          "M15": 1.322372
+        },
+        "score": 0.249056,
+        "label": "NEUTRAL",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "GBPNZD",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": 2.118391,
+          "H4": 1.289711,
+          "H1": 1.024194,
+          "M15": 0.572882
+        },
+        "score": 1.496397,
+        "label": "STRONG",
+        "timeframes_agree": true,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "GBPUSD",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -1.577082,
+          "H4": 0.036431,
+          "H1": -0.051725,
+          "M15": -0.182964
+        },
+        "score": -0.648545,
+        "label": "WEAK",
+        "timeframes_agree": true,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "GER40",
+        "group": "EQUITY_INDEX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -0.903681,
+          "H4": -0.64113,
+          "H1": 0.22317,
+          "M15": 0.527174
+        },
+        "score": -0.45646,
+        "label": "NEUTRAL",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "JP225",
+        "group": "EQUITY_INDEX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": 0.845525,
+          "H4": 1.959115,
+          "H1": 0.101369,
+          "M15": -0.602672
+        },
+        "score": 0.885951,
+        "label": "STRONG",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "NZDCAD",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -1.006047,
+          "H4": -0.607184,
+          "H1": -1.032134,
+          "M15": -0.979097
+        },
+        "score": -0.88891,
+        "label": "WEAK",
+        "timeframes_agree": true,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "NZDCHF",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -1.417344,
+          "H4": -1.782365,
+          "H1": -0.30607,
+          "M15": 0.118275
+        },
+        "score": -1.151034,
+        "label": "WEAK",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "NZDJPY",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -1.5495,
+          "H4": -0.303443,
+          "H1": -0.266107,
+          "M15": 0.820875
+        },
+        "score": -0.681967,
+        "label": "WEAK",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "NZDUSD",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -2.293705,
+          "H4": -0.926169,
+          "H1": -0.76103,
+          "M15": -0.562328
+        },
+        "score": -1.403772,
+        "label": "WEAK",
+        "timeframes_agree": true,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "OIL",
+        "group": "ENERGY",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": 0.152723,
+          "H4": 0.119439,
+          "H1": 0.033452,
+          "M15": 0.424317
+        },
+        "score": 0.146043,
+        "label": "NEUTRAL",
+        "timeframes_agree": true,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "UK100",
+        "group": "EQUITY_INDEX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -1.185982,
+          "H4": -1.11543,
+          "H1": 0.299089,
+          "M15": 0.565849
+        },
+        "score": -0.692619,
+        "label": "WEAK",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "US100",
+        "group": "EQUITY_INDEX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": 0.834521,
+          "H4": 0.734738,
+          "H1": -0.48097,
+          "M15": -0.686638
+        },
+        "score": 0.389372,
+        "label": "MIXED",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "US30",
+        "group": "EQUITY_INDEX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -1.133161,
+          "H4": -0.481982,
+          "H1": -0.003026,
+          "M15": 0.317327
+        },
+        "score": -0.566732,
+        "label": "WEAK",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "US500",
+        "group": "EQUITY_INDEX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": 0.057685,
+          "H4": 0.356525,
+          "H1": -0.370901,
+          "M15": 0.214669
+        },
+        "score": 0.077318,
+        "label": "NEUTRAL",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "USDCAD",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": 2.433916,
+          "H4": 0.806573,
+          "H1": 0.140282,
+          "M15": -0.43145
+        },
+        "score": 1.20045,
+        "label": "STRONG",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "USDCHF",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": 1.130602,
+          "H4": -0.862931,
+          "H1": 0.431453,
+          "M15": 0.843187
+        },
+        "score": 0.363971,
+        "label": "NEUTRAL",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "USDJPY",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": 0.363692,
+          "H4": 0.54376,
+          "H1": 0.570956,
+          "M15": 1.530366
+        },
+        "score": 0.575833,
+        "label": "STRONG",
+        "timeframes_agree": true,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "USDSEK",
+        "group": "FX",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": 2.274106,
+          "H4": 0.478634,
+          "H1": 0.045831,
+          "M15": -0.178244
+        },
+        "score": 1.044574,
+        "label": "STRONG",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "XAGUSD",
+        "group": "METAL",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -0.856465,
+          "H4": 0.182849,
+          "H1": 0.633487,
+          "M15": -0.062128
+        },
+        "score": -0.167247,
+        "label": "NEUTRAL",
+        "timeframes_agree": false,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      },
+      {
+        "canonical": "XAUUSD",
+        "group": "METAL",
+        "market_status": "OPEN_CONFIRMED",
+        "by_timeframe": {
+          "D1": -0.964685,
+          "H4": -0.09044,
+          "H1": -0.051283,
+          "M15": 0.0828
+        },
+        "score": -0.414983,
+        "label": "NEUTRAL",
+        "timeframes_agree": true,
+        "usable_timeframes": [
+          "D1",
+          "H4",
+          "H1",
+          "M15"
+        ]
+      }
+    ],
+    "data_quality": "DEGRADED",
+    "data_quality_reasons": [
+      "Dati del broker: GOOD.",
+      "Calendario non completo per le prossime 24 ore: al massimo DEGRADED."
+    ],
+    "source_quality": [
+      {
+        "domain": "BROKER_DATA",
+        "quality": "GOOD",
+        "configured": true,
+        "providers": [
+          "xm/mt5"
+        ],
+        "intended_use": "INTRADAY_CONTEXT",
+        "reasons": []
+      },
+      {
+        "domain": "MARKET_REFERENCE",
+        "quality": "INSUFFICIENT",
+        "configured": false,
+        "providers": [
+          "nessuno",
+          "derivato:DXY"
+        ],
+        "intended_use": "STRUCTURAL_CONTEXT",
+        "reasons": [
+          "VIX: nessuna fonte configurata"
+        ]
+      },
+      {
+        "domain": "CALENDAR",
+        "quality": "DEGRADED",
+        "configured": false,
+        "providers": [
+          "nessuno"
+        ],
+        "intended_use": "EVENT_RISK",
+        "reasons": [
+          "Calendario economico: nessuna fonte configurata."
+        ]
+      },
+      {
+        "domain": "MACRO",
+        "quality": "INSUFFICIENT",
+        "configured": false,
+        "providers": [
+          "nessuno",
+          "nessuno"
+        ],
+        "intended_use": "STRUCTURAL_CONTEXT",
+        "reasons": [
+          "curva dei rendimenti: nessuna fonte configurata",
+          "Nessuna serie macro (inflazione, occupazione, PIL): provider non configurato."
+        ]
+      },
+      {
+        "domain": "NEWS",
+        "quality": "INSUFFICIENT",
+        "configured": false,
+        "providers": [
+          "nessuno"
+        ],
+        "intended_use": "EVENT_RISK",
+        "reasons": [
+          "Notizie rinviate per scelta: nessun provider."
+        ]
+      }
+    ],
+    "dimension_quality": [
+      {
+        "dimension": "risk_sentiment",
+        "quality": "GOOD",
+        "coverage": 1.0,
+        "reasons": []
+      },
+      {
+        "dimension": "currency_strength",
+        "quality": "GOOD",
+        "coverage": 1.0,
+        "reasons": []
+      },
+      {
+        "dimension": "volatility",
+        "quality": "GOOD",
+        "coverage": 1.0,
+        "reasons": []
+      },
+      {
+        "dimension": "intermarket",
+        "quality": "GOOD",
+        "coverage": 1.0,
+        "reasons": []
+      },
+      {
+        "dimension": "relative_strength",
+        "quality": "GOOD",
+        "coverage": 1.0,
+        "reasons": []
+      },
+      {
+        "dimension": "equities",
+        "quality": "GOOD",
+        "coverage": 1.0,
+        "reasons": []
+      },
+      {
+        "dimension": "metals",
+        "quality": "GOOD",
+        "coverage": 1.0,
+        "reasons": []
+      },
+      {
+        "dimension": "macro_event_risk",
+        "quality": "DEGRADED",
+        "coverage": 0.0,
+        "reasons": [
+          "Calendario economico: nessuna fonte configurata."
+        ]
+      },
+      {
+        "dimension": "implied_volatility",
+        "quality": "INSUFFICIENT",
+        "coverage": 0.0,
+        "reasons": [
+          "VIX: nessuna fonte configurata"
+        ]
+      },
+      {
+        "dimension": "rates",
+        "quality": "INSUFFICIENT",
+        "coverage": 0.0,
+        "reasons": [
+          "curva dei rendimenti: nessuna fonte configurata"
+        ]
+      },
+      {
+        "dimension": "dollar_index",
+        "quality": "GOOD",
+        "coverage": 1.0,
+        "reasons": []
+      }
+    ],
+    "cross_checks": [
+      {
+        "name": "DXY_RICOSTRUITO_VS_USD_GRAFO",
+        "passed": true,
+        "detail": "DXY STRONG, USD dal grafo STRONG; correlazione H1 0.9477.",
+        "effect": "se fallisce: qualità della forza valutaria al massimo DEGRADED"
+      }
+    ],
+    "known_limitations": [
+      "Nessun calendario economico: rischio da eventi sconosciuto.",
+      "Nessuna serie macro (inflazione, occupazione, PIL, politica monetaria): il regime macro non è osservato, solo i prezzi.",
+      "Rendimenti solo USA: nessun differenziale di tasso con EUR, GBP, JPY, CHF, AUD.",
+      "VIX e rendimenti sono giornalieri (contesto strutturale): non descrivono le ultime ore.",
+      "Nessuna fonte di notizie: eventi non in calendario (dichiarazioni, geopolitica) sono invisibili.",
+      "Nessun dato di posizionamento (COT, flussi) né di volumi reali: il forex su MT5 ha solo volumi di tick."
+    ],
+    "simulated": false,
+    "providers": [
+      {
+        "name": "nessuno",
+        "kind": "MARKET_REFERENCE",
+        "state": "NOT_CONFIGURED",
+        "domain": "MARKET_REFERENCE",
+        "frequency": "NONE",
+        "publication_delay": "",
+        "intended_use": "STRUCTURAL_CONTEXT",
+        "official": false,
+        "requires_key": false,
+        "free": true,
+        "coverage": "",
+        "license_note": "fonte di riferimento non configurata",
+        "last_success": null,
+        "last_error": null,
+        "data_as_of": null
+      },
+      {
+        "name": "nessuno",
+        "kind": "ECONOMIC_CALENDAR",
+        "state": "NOT_CONFIGURED",
+        "domain": "CALENDAR",
+        "frequency": "NONE",
+        "publication_delay": "",
+        "intended_use": "EVENT_RISK",
+        "official": false,
+        "requires_key": false,
+        "free": true,
+        "coverage": "",
+        "license_note": "calendario economico non configurato",
+        "last_success": null,
+        "last_error": null,
+        "data_as_of": null
+      },
+      {
+        "name": "nessuno",
+        "kind": "RATES",
+        "state": "NOT_CONFIGURED",
+        "domain": "MACRO",
+        "frequency": "NONE",
+        "publication_delay": "",
+        "intended_use": "STRUCTURAL_CONTEXT",
+        "official": false,
+        "requires_key": false,
+        "free": true,
+        "coverage": "",
+        "license_note": "curva dei rendimenti non configurata",
+        "last_success": null,
+        "last_error": null,
+        "data_as_of": null
+      },
+      {
+        "name": "nessuno",
+        "kind": "MACRO_DATA",
+        "state": "NOT_CONFIGURED",
+        "domain": "MACRO",
+        "frequency": "NONE",
+        "publication_delay": "",
+        "intended_use": "STRUCTURAL_CONTEXT",
+        "official": false,
+        "requires_key": false,
+        "free": true,
+        "coverage": "",
+        "license_note": "nessun provider macro scelto (candidato: FRED, chiave gratuita)",
+        "last_success": null,
+        "last_error": null,
+        "data_as_of": null
+      },
+      {
+        "name": "nessuno",
+        "kind": "NEWS",
+        "state": "NOT_CONFIGURED",
+        "domain": "NEWS",
+        "frequency": "NONE",
+        "publication_delay": "",
+        "intended_use": "EVENT_RISK",
+        "official": false,
+        "requires_key": false,
+        "free": true,
+        "coverage": "",
+        "license_note": "news e sentiment rinviati: nessun provider",
+        "last_success": null,
+        "last_error": null,
+        "data_as_of": null
+      }
+    ],
+    "warnings": [],
+    "summary": [
+      {
+        "label": "Mercato",
+        "value": "OPEN_CONFIRMED"
+      },
+      {
+        "label": "Regime",
+        "value": "UNCERTAIN"
+      },
+      {
+        "label": "Risk",
+        "value": "UNCERTAIN"
+      },
+      {
+        "label": "USD",
+        "value": "STRONG"
+      },
+      {
+        "label": "Valute (forte → debole)",
+        "value": "USD > GBP > CHF > JPY > CAD > AUD > EUR > NZD"
+      },
+      {
+        "label": "Gold",
+        "value": "NEUTRAL"
+      },
+      {
+        "label": "Metals",
+        "value": "NEUTRAL"
+      },
+      {
+        "label": "Equities",
+        "value": "NEUTRAL"
+      },
+      {
+        "label": "Volatility",
+        "value": "STABLE (ELEVATED)"
+      },
+      {
+        "label": "VIX",
+        "value": "non disponibile"
+      },
+      {
+        "label": "US 10Y",
+        "value": "non disponibile"
+      },
+      {
+        "label": "DXY ricostruito (solo verifica)",
+        "value": "102.2202 STRONG"
+      },
+      {
+        "label": "Intermarket",
+        "value": "MIXED"
+      },
+      {
+        "label": "Calendario",
+        "value": "UNKNOWN — Calendario economico: nessuna fonte configurata."
+      },
+      {
+        "label": "Macro uncertainty",
+        "value": "MODERATE (implicita nei prezzi)"
+      },
+      {
+        "label": "Conflitti",
+        "value": "1"
+      },
+      {
+        "label": "Data quality",
+        "value": "DEGRADED"
+      },
+      {
+        "label": "Qualità per fonte",
+        "value": "BROKER_DATA=GOOD, MARKET_REFERENCE=NOT_CONFIGURED, CALENDAR=NOT_CONFIGURED, MACRO=NOT_CONFIGURED, NEWS=NOT_CONFIGURED"
+      }
+    ],
+    "usable_for_decisions": false
+  },
+  "record": {
+    "record_version": "market-analysis-record-1.0.0",
+    "created_at": "2026-10-05T12:48:44.894161Z",
+    "input": {
+      "input_schema_version": "market-analysis-input-1.0.0",
+      "prompt_version": "market-analyst-prompt-1.3.0",
+      "output_schema_version": "market-analysis-output-1.2.0",
+      "context_as_of": "2026-10-05T12:48:20.439807Z",
+      "context_fingerprint": "c69a617624363dbd9c5f3a787a7c2f4c0332d3a23efe8855031cf258137e08c6",
+      "engine_version": "global-1.1.0",
+      "engine_regime": "UNCERTAIN",
+      "data_quality": "DEGRADED",
+      "payload": {
+        "context_as_of": "2026-10-05T12:48:20.439807+00:00",
+        "engine_regime": "UNCERTAIN",
+        "market": {
+          "ref": "market_phase",
+          "phase": "OPEN_CONFIRMED",
+          "reason": "38 strumenti su 38 con quotazione fresca."
+        },
+        "regime": {
+          "ref": "regime",
+          "value": "UNCERTAIN",
+          "reasons": [
+            "Evidenze troppo deboli per una direzione di rischio."
+          ]
+        },
+        "risk_sentiment": {
+          "ref": "risk_sentiment",
+          "label": "UNCERTAIN",
+          "composite": -0.282,
+          "agreement": 0.5,
+          "by_timeframe": {
+            "D1": -0.574,
+            "H4": -0.395,
+            "H1": 0.047,
+            "M15": 0.569
+          },
+          "strong_risk_on": [],
+          "strong_risk_off": [
+            "valute_cicliche"
+          ],
+          "evidence": [
+            {
+              "ref": "risk_sentiment.evidence.azioni",
+              "name": "azioni",
+              "points_to": "NEUTRAL",
+              "score_risk_on_positive": -0.061,
+              "weight": 1.0,
+              "description": "Direzione media degli indici azionari."
+            },
+            {
+              "ref": "risk_sentiment.evidence.yen",
+              "name": "yen",
+              "points_to": "NEUTRAL",
+              "score_risk_on_positive": -0.007,
+              "weight": 0.75,
+              "description": "Yen forte = domanda di rifugio (segno invertito)."
+            },
+            {
+              "ref": "risk_sentiment.evidence.valute_cicliche",
+              "name": "valute_cicliche",
+              "points_to": "RISK_OFF (forte)",
+              "score_risk_on_positive": -0.748,
+              "weight": 0.75,
+              "description": "AUD e NZD forti = appetito per il rischio."
+            },
+            {
+              "ref": "risk_sentiment.evidence.franco",
+              "name": "franco",
+              "points_to": "RISK_OFF (debole)",
+              "score_risk_on_positive": -0.456,
+              "weight": 0.5,
+              "description": "Franco forte = domanda di rifugio (segno invertito)."
+            },
+            {
+              "ref": "risk_sentiment.evidence.volatilita_azionaria",
+              "name": "volatilita_azionaria",
+              "points_to": "RISK_OFF (debole)",
+              "score_risk_on_positive": -0.263,
+              "weight": 0.5,
+              "description": "Percentile ATR mediano degli indici: alto = avversione al rischio."
+            }
+          ]
+        },
+        "currency_strength": {
+          "ref": "currency_strength",
+          "method": "Modello a grafo robusto: per ogni barra, rendimenti delle 8 valute stimati con minimi quadrati pesati (peso = 1/varianza del cross) dalle equazioni r(A,B) = x(A) − x(B), con Σx = 0; cross fermi esclusi; outlier (residuo oltre 6 deviazioni robuste e 1 pip) rimossi e barra ristimata. Poi, per valuta: rendimento su 20 barre diviso per la sua volatilità. Composito D1 .4, H4 .3, H1 .2, M15 .1. Misura primaria delle valute; il DXY ricostruito la verifica.",
+          "graph_residual_median": {
+            "D1": 0.0,
+            "H4": 0.0,
+            "H1": 0.0,
+            "M15": 0.0
+          },
+          "outliers_removed": {
+            "D1": 7,
+            "H4": 4,
+            "H1": 2,
+            "M15": 3
+          },
+          "currencies": [
+            {
+              "ref": "currency_strength.USD",
+              "currency": "USD",
+              "rank": 1,
+              "score": 1.089,
+              "label": "STRONG",
+              "by_timeframe": {
+                "D1": 1.9,
+                "H4": 0.637,
+                "H1": 0.488,
+                "M15": 0.404
+              },
+              "timeframes_agree": true
+            },
+            {
+              "ref": "currency_strength.GBP",
+              "currency": "GBP",
+              "rank": 2,
+              "score": 0.681,
+              "label": "STRONG",
+              "by_timeframe": {
+                "D1": 0.525,
+                "H4": 0.976,
+                "H1": 0.768,
+                "M15": 0.247
+              },
+              "timeframes_agree": true
+            },
+            {
+              "ref": "currency_strength.CHF",
+              "currency": "CHF",
+              "rank": 3,
+              "score": 0.456,
+              "label": "NEUTRAL",
+              "by_timeframe": {
+                "D1": 0.147,
+                "H4": 1.709,
+                "H1": -0.149,
+                "M15": -0.853
+              },
+              "timeframes_agree": false
+            },
+            {
+              "ref": "currency_strength.JPY",
+              "currency": "JPY",
+              "rank": 4,
+              "score": 0.007,
+              "label": "NEUTRAL",
+              "by_timeframe": {
+                "D1": 0.728,
+                "H4": -0.232,
+                "H1": -0.297,
+                "M15": -1.552
+              },
+              "timeframes_agree": false
+            },
+            {
+              "ref": "currency_strength.CAD",
+              "currency": "CAD",
+              "rank": 5,
+              "score": 0.004,
+              "label": "NEUTRAL",
+              "by_timeframe": {
+                "D1": -0.535,
+                "H4": -0.161,
+                "H1": 0.708,
+                "M15": 1.252
+              },
+              "timeframes_agree": false
+            },
+            {
+              "ref": "currency_strength.AUD",
+              "currency": "AUD",
+              "rank": 6,
+              "score": -0.126,
+              "label": "MIXED",
+              "by_timeframe": {
+                "D1": -1.081,
+                "H4": -0.123,
+                "H1": 0.908,
+                "M15": 1.609
+              },
+              "timeframes_agree": false
+            },
+            {
+              "ref": "currency_strength.EUR",
+              "currency": "EUR",
+              "rank": 7,
+              "score": -1.164,
+              "label": "WEAK",
+              "by_timeframe": {
+                "D1": -1.115,
+                "H4": -1.946,
+                "H1": -0.939,
+                "M15": 0.542
+              },
+              "timeframes_agree": false
+            },
+            {
+              "ref": "currency_strength.NZD",
+              "currency": "NZD",
+              "rank": 8,
+              "score": -1.369,
+              "label": "WEAK",
+              "by_timeframe": {
+                "D1": -2.075,
+                "H4": -0.984,
+                "H1": -0.948,
+                "M15": -0.546
+              },
+              "timeframes_agree": true
+            }
+          ]
+        },
+        "equities": {
+          "ref": "equities",
+          "label": "NEUTRAL",
+          "score": -0.061,
+          "breadth": 0.5,
+          "by_timeframe": {
+            "D1": -0.248,
+            "H4": 0.135,
+            "H1": -0.039,
+            "M15": 0.056
+          },
+          "members": {
+            "GER40": -0.456,
+            "JP225": 0.886,
+            "UK100": -0.693,
+            "US100": 0.389,
+            "US30": -0.567,
+            "US500": 0.077
+          }
+        },
+        "metals": {
+          "ref": "metals",
+          "label": "NEUTRAL",
+          "score": -0.291,
+          "members": {
+            "XAGUSD": -0.167,
+            "XAUUSD": -0.415
+          }
+        },
+        "volatility": {
+          "ref": "volatility",
+          "level": "ELEVATED",
+          "trend": "STABLE",
+          "shock": false,
+          "median_atr_percentile": {
+            "D1": 0.444,
+            "H4": 0.928,
+            "H1": 0.773,
+            "M15": 0.544
+          },
+          "by_group": {
+            "FX": "ELEVATED",
+            "EQUITY_INDEX": "NORMAL",
+            "METAL": "NORMAL",
+            "ENERGY": "NORMAL"
+          }
+        },
+        "instruments": [
+          {
+            "ref": "instruments.AUDCAD",
+            "canonical": "AUDCAD",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -0.075,
+            "label": "NEUTRAL",
+            "by_timeframe": {
+              "D1": -0.423,
+              "H4": -0.019,
+              "H1": 0.412,
+              "M15": 0.174
+            }
+          },
+          {
+            "ref": "instruments.AUDCHF",
+            "canonical": "AUDCHF",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -0.37,
+            "label": "MIXED",
+            "by_timeframe": {
+              "D1": -0.734,
+              "H4": -1.083,
+              "H1": 0.535,
+              "M15": 1.42
+            }
+          },
+          {
+            "ref": "instruments.AUDJPY",
+            "canonical": "AUDJPY",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -0.079,
+            "label": "MIXED",
+            "by_timeframe": {
+              "D1": -1.109,
+              "H4": 0.087,
+              "H1": 0.694,
+              "M15": 1.992
+            }
+          },
+          {
+            "ref": "instruments.AUDNZD",
+            "canonical": "AUDNZD",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": 0.993,
+            "label": "STRONG",
+            "by_timeframe": {
+              "D1": 0.838,
+              "H4": 0.692,
+              "H1": 1.431,
+              "M15": 1.644
+            }
+          },
+          {
+            "ref": "instruments.AUDUSD",
+            "canonical": "AUDUSD",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -0.851,
+            "label": "WEAK",
+            "by_timeframe": {
+              "D1": -2.016,
+              "H4": -0.426,
+              "H1": 0.217,
+              "M15": 0.397
+            }
+          },
+          {
+            "ref": "instruments.CADCHF",
+            "canonical": "CADCHF",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -0.432,
+            "label": "MIXED",
+            "by_timeframe": {
+              "D1": -0.457,
+              "H4": -1.611,
+              "H1": 0.403,
+              "M15": 1.539
+            }
+          },
+          {
+            "ref": "instruments.CADJPY",
+            "canonical": "CADJPY",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": 0.033,
+            "label": "NEUTRAL",
+            "by_timeframe": {
+              "D1": -0.777,
+              "H4": 0.135,
+              "H1": 0.557,
+              "M15": 1.92
+            }
+          },
+          {
+            "ref": "instruments.CHFJPY",
+            "canonical": "CHFJPY",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": 0.301,
+            "label": "NEUTRAL",
+            "by_timeframe": {
+              "D1": -0.514,
+              "H4": 1.344,
+              "H1": 0.091,
+              "M15": 0.853
+            }
+          },
+          {
+            "ref": "instruments.EURAUD",
+            "canonical": "EURAUD",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -0.609,
+            "label": "WEAK",
+            "by_timeframe": {
+              "D1": 0.233,
+              "H4": -1.202,
+              "H1": -1.626,
+              "M15": -0.163
+            }
+          },
+          {
+            "ref": "instruments.EURCAD",
+            "canonical": "EURCAD",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -0.712,
+            "label": "WEAK",
+            "by_timeframe": {
+              "D1": -0.241,
+              "H4": -1.366,
+              "H1": -1.005,
+              "M15": -0.043
+            }
+          },
+          {
+            "ref": "instruments.EURCHF",
+            "canonical": "EURCHF",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -0.869,
+            "label": "WEAK",
+            "by_timeframe": {
+              "D1": -0.629,
+              "H4": -2.061,
+              "H1": -0.417,
+              "M15": 0.84
+            }
+          },
+          {
+            "ref": "instruments.EURGBP",
+            "canonical": "EURGBP",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -1.747,
+            "label": "WEAK",
+            "by_timeframe": {
+              "D1": -1.593,
+              "H4": -2.733,
+              "H1": -1.678,
+              "M15": 0.463
+            }
+          },
+          {
+            "ref": "instruments.EURJPY",
+            "canonical": "EURJPY",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -0.53,
+            "label": "WEAK",
+            "by_timeframe": {
+              "D1": -0.915,
+              "H4": -0.695,
+              "H1": -0.358,
+              "M15": 1.164
+            }
+          },
+          {
+            "ref": "instruments.EURNZD",
+            "canonical": "EURNZD",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": 0.265,
+            "label": "NEUTRAL",
+            "by_timeframe": {
+              "D1": 1.099,
+              "H4": -0.679,
+              "H1": -0.269,
+              "M15": 0.828
+            }
+          },
+          {
+            "ref": "instruments.EURUSD",
+            "canonical": "EURUSD",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -1.571,
+            "label": "WEAK",
+            "by_timeframe": {
+              "D1": -2.356,
+              "H4": -1.604,
+              "H1": -0.806,
+              "M15": 0.136
+            }
+          },
+          {
+            "ref": "instruments.GBPAUD",
+            "canonical": "GBPAUD",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": 0.41,
+            "label": "MIXED",
+            "by_timeframe": {
+              "D1": 1.029,
+              "H4": 0.578,
+              "H1": -0.407,
+              "M15": -0.931
+            }
+          },
+          {
+            "ref": "instruments.GBPCAD",
+            "canonical": "GBPCAD",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": 0.469,
+            "label": "NEUTRAL",
+            "by_timeframe": {
+              "D1": 0.753,
+              "H4": 0.724,
+              "H1": 0.059,
+              "M15": -0.613
+            }
+          },
+          {
+            "ref": "instruments.GBPCHF",
+            "canonical": "GBPCHF",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -0.019,
+            "label": "NEUTRAL",
+            "by_timeframe": {
+              "D1": 0.132,
+              "H4": -0.734,
+              "H1": 0.373,
+              "M15": 0.734
+            }
+          },
+          {
+            "ref": "instruments.GBPJPY",
+            "canonical": "GBPJPY",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": 0.249,
+            "label": "NEUTRAL",
+            "by_timeframe": {
+              "D1": -0.442,
+              "H4": 0.623,
+              "H1": 0.533,
+              "M15": 1.322
+            }
+          },
+          {
+            "ref": "instruments.GBPNZD",
+            "canonical": "GBPNZD",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": 1.496,
+            "label": "STRONG",
+            "by_timeframe": {
+              "D1": 2.118,
+              "H4": 1.29,
+              "H1": 1.024,
+              "M15": 0.573
+            }
+          },
+          {
+            "ref": "instruments.GBPUSD",
+            "canonical": "GBPUSD",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -0.649,
+            "label": "WEAK",
+            "by_timeframe": {
+              "D1": -1.577,
+              "H4": 0.036,
+              "H1": -0.052,
+              "M15": -0.183
+            }
+          },
+          {
+            "ref": "instruments.GER40",
+            "canonical": "GER40",
+            "group": "EQUITY_INDEX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -0.456,
+            "label": "NEUTRAL",
+            "by_timeframe": {
+              "D1": -0.904,
+              "H4": -0.641,
+              "H1": 0.223,
+              "M15": 0.527
+            }
+          },
+          {
+            "ref": "instruments.JP225",
+            "canonical": "JP225",
+            "group": "EQUITY_INDEX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": 0.886,
+            "label": "STRONG",
+            "by_timeframe": {
+              "D1": 0.846,
+              "H4": 1.959,
+              "H1": 0.101,
+              "M15": -0.603
+            }
+          },
+          {
+            "ref": "instruments.NZDCAD",
+            "canonical": "NZDCAD",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -0.889,
+            "label": "WEAK",
+            "by_timeframe": {
+              "D1": -1.006,
+              "H4": -0.607,
+              "H1": -1.032,
+              "M15": -0.979
+            }
+          },
+          {
+            "ref": "instruments.NZDCHF",
+            "canonical": "NZDCHF",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -1.151,
+            "label": "WEAK",
+            "by_timeframe": {
+              "D1": -1.417,
+              "H4": -1.782,
+              "H1": -0.306,
+              "M15": 0.118
+            }
+          },
+          {
+            "ref": "instruments.NZDJPY",
+            "canonical": "NZDJPY",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -0.682,
+            "label": "WEAK",
+            "by_timeframe": {
+              "D1": -1.55,
+              "H4": -0.303,
+              "H1": -0.266,
+              "M15": 0.821
+            }
+          },
+          {
+            "ref": "instruments.NZDUSD",
+            "canonical": "NZDUSD",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -1.404,
+            "label": "WEAK",
+            "by_timeframe": {
+              "D1": -2.294,
+              "H4": -0.926,
+              "H1": -0.761,
+              "M15": -0.562
+            }
+          },
+          {
+            "ref": "instruments.OIL",
+            "canonical": "OIL",
+            "group": "ENERGY",
+            "market_status": "OPEN_CONFIRMED",
+            "score": 0.146,
+            "label": "NEUTRAL",
+            "by_timeframe": {
+              "D1": 0.153,
+              "H4": 0.119,
+              "H1": 0.033,
+              "M15": 0.424
+            }
+          },
+          {
+            "ref": "instruments.UK100",
+            "canonical": "UK100",
+            "group": "EQUITY_INDEX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -0.693,
+            "label": "WEAK",
+            "by_timeframe": {
+              "D1": -1.186,
+              "H4": -1.115,
+              "H1": 0.299,
+              "M15": 0.566
+            }
+          },
+          {
+            "ref": "instruments.US100",
+            "canonical": "US100",
+            "group": "EQUITY_INDEX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": 0.389,
+            "label": "MIXED",
+            "by_timeframe": {
+              "D1": 0.835,
+              "H4": 0.735,
+              "H1": -0.481,
+              "M15": -0.687
+            }
+          },
+          {
+            "ref": "instruments.US30",
+            "canonical": "US30",
+            "group": "EQUITY_INDEX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -0.567,
+            "label": "WEAK",
+            "by_timeframe": {
+              "D1": -1.133,
+              "H4": -0.482,
+              "H1": -0.003,
+              "M15": 0.317
+            }
+          },
+          {
+            "ref": "instruments.US500",
+            "canonical": "US500",
+            "group": "EQUITY_INDEX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": 0.077,
+            "label": "NEUTRAL",
+            "by_timeframe": {
+              "D1": 0.058,
+              "H4": 0.357,
+              "H1": -0.371,
+              "M15": 0.215
+            }
+          },
+          {
+            "ref": "instruments.USDCAD",
+            "canonical": "USDCAD",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": 1.2,
+            "label": "STRONG",
+            "by_timeframe": {
+              "D1": 2.434,
+              "H4": 0.807,
+              "H1": 0.14,
+              "M15": -0.431
+            }
+          },
+          {
+            "ref": "instruments.USDCHF",
+            "canonical": "USDCHF",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": 0.364,
+            "label": "NEUTRAL",
+            "by_timeframe": {
+              "D1": 1.131,
+              "H4": -0.863,
+              "H1": 0.431,
+              "M15": 0.843
+            }
+          },
+          {
+            "ref": "instruments.USDJPY",
+            "canonical": "USDJPY",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": 0.576,
+            "label": "STRONG",
+            "by_timeframe": {
+              "D1": 0.364,
+              "H4": 0.544,
+              "H1": 0.571,
+              "M15": 1.53
+            }
+          },
+          {
+            "ref": "instruments.USDSEK",
+            "canonical": "USDSEK",
+            "group": "FX",
+            "market_status": "OPEN_CONFIRMED",
+            "score": 1.045,
+            "label": "STRONG",
+            "by_timeframe": {
+              "D1": 2.274,
+              "H4": 0.479,
+              "H1": 0.046,
+              "M15": -0.178
+            }
+          },
+          {
+            "ref": "instruments.XAGUSD",
+            "canonical": "XAGUSD",
+            "group": "METAL",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -0.167,
+            "label": "NEUTRAL",
+            "by_timeframe": {
+              "D1": -0.856,
+              "H4": 0.183,
+              "H1": 0.633,
+              "M15": -0.062
+            }
+          },
+          {
+            "ref": "instruments.XAUUSD",
+            "canonical": "XAUUSD",
+            "group": "METAL",
+            "market_status": "OPEN_CONFIRMED",
+            "score": -0.415,
+            "label": "NEUTRAL",
+            "by_timeframe": {
+              "D1": -0.965,
+              "H4": -0.09,
+              "H1": -0.051,
+              "M15": 0.083
+            }
+          }
+        ],
+        "intermarket": {
+          "ref": "intermarket",
+          "state": "MIXED",
+          "note": "Correlazioni sui rendimenti: corrente = ultimi N, base = tutti i precedenti senza sovrapposizione. CONSISTENT = compatibile con la storia, non 'confermata'.",
+          "relationships": [
+            {
+              "ref": "intermarket.US500~GER40.H1",
+              "pair": "US500~GER40",
+              "timeframe": "H1",
+              "current": 0.549,
+              "current_n": 40,
+              "baseline": 0.673,
+              "baseline_n": 355,
+              "difference_z": -1.16,
+              "stability": 1.0,
+              "state": "CONSISTENT"
+            },
+            {
+              "ref": "intermarket.US500~JP225.H1",
+              "pair": "US500~JP225",
+              "timeframe": "H1",
+              "current": 0.525,
+              "current_n": 40,
+              "baseline": 0.656,
+              "baseline_n": 359,
+              "difference_z": -1.17,
+              "stability": 1.0,
+              "state": "CONSISTENT"
+            },
+            {
+              "ref": "intermarket.US100~US30.H1",
+              "pair": "US100~US30",
+              "timeframe": "H1",
+              "current": 0.566,
+              "current_n": 40,
+              "baseline": 0.531,
+              "baseline_n": 359,
+              "difference_z": 0.29,
+              "stability": 0.84,
+              "state": "CONSISTENT"
+            },
+            {
+              "ref": "intermarket.XAUUSD~XAGUSD.H1",
+              "pair": "XAUUSD~XAGUSD",
+              "timeframe": "H1",
+              "current": 0.917,
+              "current_n": 40,
+              "baseline": 0.883,
+              "baseline_n": 359,
+              "difference_z": 1.03,
+              "stability": 1.0,
+              "state": "CONSISTENT"
+            },
+            {
+              "ref": "intermarket.XAUUSD~EURUSD.H1",
+              "pair": "XAUUSD~EURUSD",
+              "timeframe": "H1",
+              "current": 0.376,
+              "current_n": 40,
+              "baseline": 0.503,
+              "baseline_n": 342,
+              "difference_z": -0.91,
+              "stability": 1.0,
+              "state": "CONSISTENT"
+            },
+            {
+              "ref": "intermarket.XAUUSD~US500.H1",
+              "pair": "XAUUSD~US500",
+              "timeframe": "H1",
+              "current": 0.617,
+              "current_n": 40,
+              "baseline": 0.533,
+              "baseline_n": 359,
+              "difference_z": 0.73,
+              "stability": 1.0,
+              "state": "CONSISTENT"
+            },
+            {
+              "ref": "intermarket.AUDJPY~US500.H1",
+              "pair": "AUDJPY~US500",
+              "timeframe": "H1",
+              "current": 0.08,
+              "current_n": 40,
+              "baseline": 0.086,
+              "baseline_n": 342,
+              "difference_z": -0.04,
+              "stability": 0.65,
+              "state": "NO_BASELINE"
+            },
+            {
+              "ref": "intermarket.USDJPY~US500.H1",
+              "pair": "USDJPY~US500",
+              "timeframe": "H1",
+              "current": -0.595,
+              "current_n": 40,
+              "baseline": -0.323,
+              "baseline_n": 342,
+              "difference_z": -2.02,
+              "stability": 0.87,
+              "state": "CONSISTENT"
+            },
+            {
+              "ref": "intermarket.USDCAD~OIL.H1",
+              "pair": "USDCAD~OIL",
+              "timeframe": "H1",
+              "current": -0.029,
+              "current_n": 40,
+              "baseline": 0.038,
+              "baseline_n": 342,
+              "difference_z": -0.39,
+              "stability": 0.58,
+              "state": "NO_BASELINE"
+            },
+            {
+              "ref": "intermarket.US500~GER40.D1",
+              "pair": "US500~GER40",
+              "timeframe": "D1",
+              "current": 0.657,
+              "current_n": 40,
+              "baseline": 0.787,
+              "baseline_n": 351,
+              "difference_z": -1.59,
+              "stability": 1.0,
+              "state": "CONSISTENT"
+            },
+            {
+              "ref": "intermarket.US500~JP225.D1",
+              "pair": "US500~JP225",
+              "timeframe": "D1",
+              "current": 0.57,
+              "current_n": 40,
+              "baseline": 0.759,
+              "baseline_n": 359,
+              "difference_z": -2.0,
+              "stability": 1.0,
+              "state": "CONSISTENT"
+            },
+            {
+              "ref": "intermarket.US100~US30.D1",
+              "pair": "US100~US30",
+              "timeframe": "D1",
+              "current": 0.57,
+              "current_n": 40,
+              "baseline": 0.792,
+              "baseline_n": 359,
+              "difference_z": -2.48,
+              "stability": 1.0,
+              "state": "WEAKENING"
+            },
+            {
+              "ref": "intermarket.XAUUSD~XAGUSD.D1",
+              "pair": "XAUUSD~XAGUSD",
+              "timeframe": "D1",
+              "current": 0.92,
+              "current_n": 40,
+              "baseline": 0.774,
+              "baseline_n": 359,
+              "difference_z": 3.23,
+              "stability": 1.0,
+              "state": "CONSISTENT"
+            },
+            {
+              "ref": "intermarket.XAUUSD~EURUSD.D1",
+              "pair": "XAUUSD~EURUSD",
+              "timeframe": "D1",
+              "current": 0.518,
+              "current_n": 40,
+              "baseline": 0.437,
+              "baseline_n": 353,
+              "difference_z": 0.6,
+              "stability": 1.0,
+              "state": "CONSISTENT"
+            },
+            {
+              "ref": "intermarket.XAUUSD~US500.D1",
+              "pair": "XAUUSD~US500",
+              "timeframe": "D1",
+              "current": 0.425,
+              "current_n": 40,
+              "baseline": 0.161,
+              "baseline_n": 358,
+              "difference_z": 1.69,
+              "stability": 0.66,
+              "state": "NO_BASELINE"
+            },
+            {
+              "ref": "intermarket.AUDJPY~US500.D1",
+              "pair": "AUDJPY~US500",
+              "timeframe": "D1",
+              "current": -0.116,
+              "current_n": 40,
+              "baseline": 0.605,
+              "baseline_n": 354,
+              "difference_z": -4.72,
+              "stability": 1.0,
+              "state": "WEAKENING"
+            },
+            {
+              "ref": "intermarket.USDJPY~US500.D1",
+              "pair": "USDJPY~US500",
+              "timeframe": "D1",
+              "current": -0.448,
+              "current_n": 40,
+              "baseline": 0.13,
+              "baseline_n": 354,
+              "difference_z": -3.54,
+              "stability": 0.44,
+              "state": "NO_BASELINE"
+            },
+            {
+              "ref": "intermarket.USDCAD~OIL.D1",
+              "pair": "USDCAD~OIL",
+              "timeframe": "D1",
+              "current": -0.193,
+              "current_n": 40,
+              "baseline": -0.016,
+              "baseline_n": 353,
+              "difference_z": -1.04,
+              "stability": 0.5,
+              "state": "NO_BASELINE"
+            }
+          ]
+        },
+        "conflicts": [
+          {
+            "ref": "conflicts.INDIZI_RISCHIO_DISCORDI",
+            "code": "INDIZI_RISCHIO_DISCORDI",
+            "severity": "MEDIUM",
+            "description": "Solo il 50% (pesato) degli indizi di rischio concorda."
+          }
+        ],
+        "data_quality": {
+          "ref": "data_quality",
+          "overall": "DEGRADED",
+          "reasons": [
+            "Dati del broker: GOOD.",
+            "Calendario non completo per le prossime 24 ore: al massimo DEGRADED."
+          ],
+          "by_source": [
+            {
+              "ref": "source_quality.BROKER_DATA",
+              "domain": "BROKER_DATA",
+              "quality": "GOOD",
+              "configured": true,
+              "intended_use": "INTRADAY_CONTEXT",
+              "reasons": []
+            },
+            {
+              "ref": "source_quality.MARKET_REFERENCE",
+              "domain": "MARKET_REFERENCE",
+              "quality": "INSUFFICIENT",
+              "configured": false,
+              "intended_use": "STRUCTURAL_CONTEXT",
+              "reasons": [
+                "VIX: nessuna fonte configurata"
+              ]
+            },
+            {
+              "ref": "source_quality.CALENDAR",
+              "domain": "CALENDAR",
+              "quality": "DEGRADED",
+              "configured": false,
+              "intended_use": "EVENT_RISK",
+              "reasons": [
+                "Calendario economico: nessuna fonte configurata."
+              ]
+            },
+            {
+              "ref": "source_quality.MACRO",
+              "domain": "MACRO",
+              "quality": "INSUFFICIENT",
+              "configured": false,
+              "intended_use": "STRUCTURAL_CONTEXT",
+              "reasons": [
+                "curva dei rendimenti: nessuna fonte configurata",
+                "Nessuna serie macro (inflazione, occupazione, PIL): provider non configurato."
+              ]
+            },
+            {
+              "ref": "source_quality.NEWS",
+              "domain": "NEWS",
+              "quality": "INSUFFICIENT",
+              "configured": false,
+              "intended_use": "EVENT_RISK",
+              "reasons": [
+                "Notizie rinviate per scelta: nessun provider."
+              ]
+            }
+          ]
+        },
+        "known_limitations": [
+          {
+            "ref": "limitations.1",
+            "text": "Nessun calendario economico: rischio da eventi sconosciuto."
+          },
+          {
+            "ref": "limitations.2",
+            "text": "Nessuna serie macro (inflazione, occupazione, PIL, politica monetaria): il regime macro non è osservato, solo i prezzi."
+          },
+          {
+            "ref": "limitations.3",
+            "text": "Rendimenti solo USA: nessun differenziale di tasso con EUR, GBP, JPY, CHF, AUD."
+          },
+          {
+            "ref": "limitations.4",
+            "text": "VIX e rendimenti sono giornalieri (contesto strutturale): non descrivono le ultime ore."
+          },
+          {
+            "ref": "limitations.5",
+            "text": "Nessuna fonte di notizie: eventi non in calendario (dichiarazioni, geopolitica) sono invisibili."
+          },
+          {
+            "ref": "limitations.6",
+            "text": "Nessun dato di posizionamento (COT, flussi) né di volumi reali: il forex su MT5 ha solo volumi di tick."
+          }
+        ],
+        "implied_volatility": {
+          "ref": "implied_volatility",
+          "source": "nessuno",
+          "intended_use": "STRUCTURAL_CONTEXT",
+          "value": null,
+          "day": null,
+          "percentile_1y": null,
+          "change_20d": null,
+          "level": "UNKNOWN",
+          "trend": "UNKNOWN",
+          "quality": "INSUFFICIENT",
+          "interpretation": "non interpretabile: storia insufficiente"
+        },
+        "rates_us": {
+          "ref": "rates",
+          "source": "nessuno",
+          "intended_use": "STRUCTURAL_CONTEXT",
+          "day": null,
+          "yields_pct": {},
+          "change_20d_bp": {},
+          "slope_2s10s_bp": null,
+          "slope_3m10y_bp": null,
+          "ten_year_trend": "UNKNOWN",
+          "quality": "INSUFFICIENT"
+        },
+        "dollar_index_cross_check": {
+          "ref": "dollar_index",
+          "intended_use": "CROSS_CHECK",
+          "value": 102.2202,
+          "label": "STRONG",
+          "correlation_with_usd_strength": 0.9477,
+          "agrees_with_usd_strength": true
+        },
+        "calendar": {
+          "ref": "calendar",
+          "provider": "nessuno",
+          "available": false,
+          "has_actuals": false,
+          "coverage_end": null,
+          "level": "UNKNOWN",
+          "reason": "Calendario economico: nessuna fonte configurata.",
+          "market_implied_uncertainty": "MODERATE",
+          "implied_drivers": [
+            "volatilità elevata"
+          ],
+          "events": [],
+          "next_high_impact": {}
+        },
+        "allowed_refs": [
+          "market_phase",
+          "regime",
+          "risk_sentiment",
+          "risk_sentiment.evidence.azioni",
+          "risk_sentiment.evidence.yen",
+          "risk_sentiment.evidence.valute_cicliche",
+          "risk_sentiment.evidence.franco",
+          "risk_sentiment.evidence.volatilita_azionaria",
+          "currency_strength",
+          "currency_strength.USD",
+          "currency_strength.GBP",
+          "currency_strength.CHF",
+          "currency_strength.JPY",
+          "currency_strength.CAD",
+          "currency_strength.AUD",
+          "currency_strength.EUR",
+          "currency_strength.NZD",
+          "equities",
+          "metals",
+          "volatility",
+          "instruments.AUDCAD",
+          "instruments.AUDCHF",
+          "instruments.AUDJPY",
+          "instruments.AUDNZD",
+          "instruments.AUDUSD",
+          "instruments.CADCHF",
+          "instruments.CADJPY",
+          "instruments.CHFJPY",
+          "instruments.EURAUD",
+          "instruments.EURCAD",
+          "instruments.EURCHF",
+          "instruments.EURGBP",
+          "instruments.EURJPY",
+          "instruments.EURNZD",
+          "instruments.EURUSD",
+          "instruments.GBPAUD",
+          "instruments.GBPCAD",
+          "instruments.GBPCHF",
+          "instruments.GBPJPY",
+          "instruments.GBPNZD",
+          "instruments.GBPUSD",
+          "instruments.GER40",
+          "instruments.JP225",
+          "instruments.NZDCAD",
+          "instruments.NZDCHF",
+          "instruments.NZDJPY",
+          "instruments.NZDUSD",
+          "instruments.OIL",
+          "instruments.UK100",
+          "instruments.US100",
+          "instruments.US30",
+          "instruments.US500",
+          "instruments.USDCAD",
+          "instruments.USDCHF",
+          "instruments.USDJPY",
+          "instruments.USDSEK",
+          "instruments.XAGUSD",
+          "instruments.XAUUSD",
+          "intermarket",
+          "intermarket.US500~GER40.H1",
+          "intermarket.US500~JP225.H1",
+          "intermarket.US100~US30.H1",
+          "intermarket.XAUUSD~XAGUSD.H1",
+          "intermarket.XAUUSD~EURUSD.H1",
+          "intermarket.XAUUSD~US500.H1",
+          "intermarket.AUDJPY~US500.H1",
+          "intermarket.USDJPY~US500.H1",
+          "intermarket.USDCAD~OIL.H1",
+          "intermarket.US500~GER40.D1",
+          "intermarket.US500~JP225.D1",
+          "intermarket.US100~US30.D1",
+          "intermarket.XAUUSD~XAGUSD.D1",
+          "intermarket.XAUUSD~EURUSD.D1",
+          "intermarket.XAUUSD~US500.D1",
+          "intermarket.AUDJPY~US500.D1",
+          "intermarket.USDJPY~US500.D1",
+          "intermarket.USDCAD~OIL.D1",
+          "conflicts.INDIZI_RISCHIO_DISCORDI",
+          "data_quality",
+          "source_quality.BROKER_DATA",
+          "source_quality.MARKET_REFERENCE",
+          "source_quality.CALENDAR",
+          "source_quality.MACRO",
+          "source_quality.NEWS",
+          "limitations.1",
+          "limitations.2",
+          "limitations.3",
+          "limitations.4",
+          "limitations.5",
+          "limitations.6",
+          "implied_volatility",
+          "rates",
+          "dollar_index",
+          "calendar"
+        ],
+        "universe": [
+          "EURUSD",
+          "GBPUSD",
+          "USDJPY",
+          "USDCHF",
+          "AUDUSD",
+          "USDCAD",
+          "NZDUSD",
+          "EURGBP",
+          "EURJPY",
+          "EURCHF",
+          "EURAUD",
+          "EURCAD",
+          "EURNZD",
+          "GBPJPY",
+          "GBPCHF",
+          "GBPAUD",
+          "GBPCAD",
+          "GBPNZD",
+          "CHFJPY",
+          "AUDJPY",
+          "CADJPY",
+          "NZDJPY",
+          "AUDCHF",
+          "CADCHF",
+          "NZDCHF",
+          "AUDCAD",
+          "AUDNZD",
+          "NZDCAD",
+          "XAUUSD",
+          "XAGUSD",
+          "US500",
+          "US100",
+          "US30",
+          "GER40",
+          "UK100",
+          "JP225",
+          "OIL",
+          "USDSEK",
+          "USD",
+          "EUR",
+          "GBP",
+          "JPY",
+          "CHF",
+          "AUD",
+          "CAD",
+          "NZD"
+        ]
+      },
+      "allowed_refs": [
+        "market_phase",
+        "regime",
+        "risk_sentiment",
+        "risk_sentiment.evidence.azioni",
+        "risk_sentiment.evidence.yen",
+        "risk_sentiment.evidence.valute_cicliche",
+        "risk_sentiment.evidence.franco",
+        "risk_sentiment.evidence.volatilita_azionaria",
+        "currency_strength",
+        "currency_strength.USD",
+        "currency_strength.GBP",
+        "currency_strength.CHF",
+        "currency_strength.JPY",
+        "currency_strength.CAD",
+        "currency_strength.AUD",
+        "currency_strength.EUR",
+        "currency_strength.NZD",
+        "equities",
+        "metals",
+        "volatility",
+        "instruments.AUDCAD",
+        "instruments.AUDCHF",
+        "instruments.AUDJPY",
+        "instruments.AUDNZD",
+        "instruments.AUDUSD",
+        "instruments.CADCHF",
+        "instruments.CADJPY",
+        "instruments.CHFJPY",
+        "instruments.EURAUD",
+        "instruments.EURCAD",
+        "instruments.EURCHF",
+        "instruments.EURGBP",
+        "instruments.EURJPY",
+        "instruments.EURNZD",
+        "instruments.EURUSD",
+        "instruments.GBPAUD",
+        "instruments.GBPCAD",
+        "instruments.GBPCHF",
+        "instruments.GBPJPY",
+        "instruments.GBPNZD",
+        "instruments.GBPUSD",
+        "instruments.GER40",
+        "instruments.JP225",
+        "instruments.NZDCAD",
+        "instruments.NZDCHF",
+        "instruments.NZDJPY",
+        "instruments.NZDUSD",
+        "instruments.OIL",
+        "instruments.UK100",
+        "instruments.US100",
+        "instruments.US30",
+        "instruments.US500",
+        "instruments.USDCAD",
+        "instruments.USDCHF",
+        "instruments.USDJPY",
+        "instruments.USDSEK",
+        "instruments.XAGUSD",
+        "instruments.XAUUSD",
+        "intermarket",
+        "intermarket.US500~GER40.H1",
+        "intermarket.US500~JP225.H1",
+        "intermarket.US100~US30.H1",
+        "intermarket.XAUUSD~XAGUSD.H1",
+        "intermarket.XAUUSD~EURUSD.H1",
+        "intermarket.XAUUSD~US500.H1",
+        "intermarket.AUDJPY~US500.H1",
+        "intermarket.USDJPY~US500.H1",
+        "intermarket.USDCAD~OIL.H1",
+        "intermarket.US500~GER40.D1",
+        "intermarket.US500~JP225.D1",
+        "intermarket.US100~US30.D1",
+        "intermarket.XAUUSD~XAGUSD.D1",
+        "intermarket.XAUUSD~EURUSD.D1",
+        "intermarket.XAUUSD~US500.D1",
+        "intermarket.AUDJPY~US500.D1",
+        "intermarket.USDJPY~US500.D1",
+        "intermarket.USDCAD~OIL.D1",
+        "conflicts.INDIZI_RISCHIO_DISCORDI",
+        "data_quality",
+        "source_quality.BROKER_DATA",
+        "source_quality.MARKET_REFERENCE",
+        "source_quality.CALENDAR",
+        "source_quality.MACRO",
+        "source_quality.NEWS",
+        "limitations.1",
+        "limitations.2",
+        "limitations.3",
+        "limitations.4",
+        "limitations.5",
+        "limitations.6",
+        "implied_volatility",
+        "rates",
+        "dollar_index",
+        "calendar"
+      ],
+      "universe": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "USDCHF",
+        "AUDUSD",
+        "USDCAD",
+        "NZDUSD",
+        "EURGBP",
+        "EURJPY",
+        "EURCHF",
+        "EURAUD",
+        "EURCAD",
+        "EURNZD",
+        "GBPJPY",
+        "GBPCHF",
+        "GBPAUD",
+        "GBPCAD",
+        "GBPNZD",
+        "CHFJPY",
+        "AUDJPY",
+        "CADJPY",
+        "NZDJPY",
+        "AUDCHF",
+        "CADCHF",
+        "NZDCHF",
+        "AUDCAD",
+        "AUDNZD",
+        "NZDCAD",
+        "XAUUSD",
+        "XAGUSD",
+        "US500",
+        "US100",
+        "US30",
+        "GER40",
+        "UK100",
+        "JP225",
+        "OIL",
+        "USDSEK",
+        "USD",
+        "EUR",
+        "GBP",
+        "JPY",
+        "CHF",
+        "AUD",
+        "CAD",
+        "NZD"
+      ],
+      "known_limitations": [
+        "Nessun calendario economico: rischio da eventi sconosciuto.",
+        "Nessuna serie macro (inflazione, occupazione, PIL, politica monetaria): il regime macro non è osservato, solo i prezzi.",
+        "Rendimenti solo USA: nessun differenziale di tasso con EUR, GBP, JPY, CHF, AUD.",
+        "VIX e rendimenti sono giornalieri (contesto strutturale): non descrivono le ultime ore.",
+        "Nessuna fonte di notizie: eventi non in calendario (dichiarazioni, geopolitica) sono invisibili.",
+        "Nessun dato di posizionamento (COT, flussi) né di volumi reali: il forex su MT5 ha solo volumi di tick."
+      ],
+      "input_sha256": "0ea63e8865253230236d89390832b4f9738a680fd5864ea2d75b808e8668551d"
+    },
+    "call": {
+      "provider": "openai",
+      "model_requested": "gpt-5.4-mini",
+      "model_snapshot": "gpt-5.4-mini-2026-03-17",
+      "temperature": 0.0,
+      "max_output_tokens": 4000,
+      "request_id": "resp_0b4e2153deab8a05006ac39cad122c87d291240aef86f8d438",
+      "input_tokens": 12567,
+      "output_tokens": 2454,
+      "latency_ms": 11644.0,
+      "started_at": "2026-10-05T12:48:44.894161Z",
+      "error": null
+    },
+    "raw_output": "{\"engine_regime_acknowledged\":\"UNCERTAIN\",\"market_summary\":\"Il quadro complessivo resta indeciso: il motore segnala regime UNCERTAIN, con sentiment di rischio anch’esso UNCERTAIN e solo metà degli indizi di rischio in accordo. Le valute mostrano un USD forte e un GBP forte, mentre EUR e NZD risultano deboli; sugli indici azionari il quadro è misto/neutralizzato, e la volatilità è elevata ma stabile. Il cross-check del dollaro conferma la forza dell’USD.\",\"analyst_view_on_regime\":\"Con i dati disponibili, la lettura di UNCERTAIN è coerente. Esistono segnali di supporto al rischio-off tramite USD forte e valute cicliche deboli, ma il resto del pannello non converge: azioni complessivamente neutre, metalli neutrali, e diversi timeframe con divergenze marcate. Inoltre il contesto è degradato e il calendario è incompleto, quindi non c’è base sufficiente per una direzione univoca.\",\"dominant_themes\":[{\"title\":\"Forza del dollaro come asse dominante\",\"description\":\"L’USD è la valuta più forte nel paniere e il cross-check del dollaro conferma la stessa lettura, suggerendo una pressione relativa favorevole al dollaro rispetto al resto del G10.\",\"refs\":[\"currency_strength.USD\",\"dollar_index\"]},{\"title\":\"Segnali di rischio non allineati\",\"description\":\"Gli indizi di rischio non convergono: le valute cicliche puntano chiaramente a risk-off, ma azioni, yen, franco e volatilità azionaria restano più deboli o neutrali.\",\"refs\":[\"risk_sentiment.evidence.valute_cicliche\",\"risk_sentiment.evidence.azioni\",\"risk_sentiment.evidence.yen\",\"risk_sentiment.evidence.franco\",\"risk_sentiment.evidence.volatilita_azionaria\"]},{\"title\":\"Volatilità elevata ma non in accelerazione\",\"description\":\"La volatilità è elevata e stabile, con prevalenza di condizioni elevate sul comparto FX ma non un vero shock di volatilità.\",\"refs\":[\"volatility\"]},{\"title\":\"Mercati azionari e metalli senza direzione netta\",\"description\":\"Gli indici azionari sono nel complesso neutrali e i metalli non mostrano una direzione forte, riducendo la capacità del quadro intermarket di confermare un regime unico.\",\"refs\":[\"equities\",\"metals\"]}],\"scenarios\":[{\"name\":\"Persistenza di regime incerto con bias USD\",\"narrative\":\"Il quadro resta frammentato: USD relativamente forte, ma senza conferma ampia da azioni, metalli o correlazioni intermarket. Il regime può rimanere indeciso finché i segnali di rischio non si riallineano.\",\"likelihood\":0.45,\"horizon_hours\":24,\"confirming_signals\":[\"USD resta tra le valute più forti\",\"le letture azionarie restano miste o neutrali\",\"la volatilità rimane elevata ma stabile\"],\"invalidation\":[{\"description\":\"Il regime cambia a RISK_ON entro 24 ore.\",\"subject\":\"regime\",\"metric\":\"REGIME\",\"direction\":\"CHANGES_TO\",\"threshold\":null,\"target_state\":\"RISK_ON\",\"horizon_hours\":24},{\"description\":\"Il regime cambia a RISK_OFF entro 24 ore.\",\"subject\":\"regime\",\"metric\":\"REGIME\",\"direction\":\"CHANGES_TO\",\"threshold\":null,\"target_state\":\"RISK_OFF\",\"horizon_hours\":24}],\"key_subjects\":[\"currency_strength.USD\",\"equities\",\"volatility\",\"regime\"]},{\"name\":\"Consolidamento risk-off guidato dal dollaro\",\"narrative\":\"La forza dell’USD e la debolezza di EUR/NZD, insieme al segnale forte delle valute cicliche verso risk-off, possono evolvere in una lettura più chiaramente difensiva se il resto del mercato si allinea.\",\"likelihood\":0.3,\"horizon_hours\":24,\"confirming_signals\":[\"USD mantiene o rafforza la leadership\",\"EUR e NZD restano deboli\",\"le valute cicliche continuano a puntare a risk-off\"],\"invalidation\":[{\"description\":\"USD non resta STRONG entro 24 ore.\",\"subject\":\"currency_strength.USD\",\"metric\":\"CURRENCY_STRENGTH\",\"direction\":\"NOT_REACHED\",\"threshold\":null,\"target_state\":\"STRONG\",\"horizon_hours\":24},{\"description\":\"Il regime non cambia a RISK_OFF entro 24 ore.\",\"subject\":\"regime\",\"metric\":\"REGIME\",\"direction\":\"NOT_REACHED\",\"threshold\":null,\"target_state\":\"RISK_OFF\",\"horizon_hours\":24}],\"key_subjects\":[\"currency_strength.USD\",\"currency_strength.EUR\",\"currency_strength.NZD\",\"risk_sentiment.evidence.valute_cicliche\",\"regime\"]},{\"name\":\"Riallineamento verso risk-on\",\"narrative\":\"Il quadro attuale potrebbe essere solo transitorio se le letture intraday più recenti prevalgono e gli indizi di rischio tornano a convergere verso un tono più favorevole al rischio.\",\"likelihood\":0.25,\"horizon_hours\":24,\"confirming_signals\":[\"migliora la coerenza tra timeframe\",\"azioni e valute cicliche si spostano verso letture più favorevoli al rischio\",\"la volatilità non si espande\"],\"invalidation\":[{\"description\":\"Il regime non cambia a RISK_ON entro 24 ore.\",\"subject\":\"regime\",\"metric\":\"REGIME\",\"direction\":\"NOT_REACHED\",\"threshold\":null,\"target_state\":\"RISK_ON\",\"horizon_hours\":24},{\"description\":\"La volatilità cambia a EXTREME entro 24 ore.\",\"subject\":\"volatility\",\"metric\":\"VOLATILITY\",\"direction\":\"CHANGES_TO\",\"threshold\":null,\"target_state\":\"EXTREME\",\"horizon_hours\":24}],\"key_subjects\":[\"risk_sentiment\",\"equities\",\"volatility\",\"regime\"]}],\"supporting_evidence\":[{\"statement\":\"Il regime del motore è UNCERTAIN e il sentiment di rischio composito è anch’esso UNCERTAIN.\",\"refs\":[\"regime\",\"risk_sentiment\"]},{\"statement\":\"Solo il 50% degli indizi di rischio concorda, indicando scarsa coesione del quadro.\",\"refs\":[\"conflicts.INDIZI_RISCHIO_DISCORDI\"]},{\"statement\":\"L’USD è la valuta più forte del paniere e il cross-check del dollaro conferma la lettura.\",\"refs\":[\"currency_strength.USD\",\"dollar_index\"]},{\"statement\":\"Le valute cicliche sono l’unico indizio di rischio classificato come forte verso risk-off.\",\"refs\":[\"risk_sentiment.evidence.valute_cicliche\"]},{\"statement\":\"La volatilità è elevata ma stabile, senza shock.\",\"refs\":[\"volatility\"]},{\"statement\":\"Gli indici azionari sono complessivamente neutrali, con letture miste tra i singoli componenti.\",\"refs\":[\"equities\"]},{\"statement\":\"EUR e NZD risultano deboli nel paniere valutario.\",\"refs\":[\"currency_strength.EUR\",\"currency_strength.NZD\"]}],\"contradictory_evidence\":[{\"statement\":\"Le letture intraday e giornaliere non sono allineate: il sentiment per timeframe passa da negativo su D1/H4 a positivo su M15.\",\"refs\":[\"risk_sentiment\"]},{\"statement\":\"Nel paniere azionario convivono segnali opposti: JP225 è forte, mentre GER40, UK100 e US30 sono deboli.\",\"refs\":[\"equities\"]},{\"statement\":\"Nel comparto valutario alcune coppie mostrano divergenze marcate tra timeframe, ad esempio AUDJPY e AUDCHF.\",\"refs\":[\"instruments.AUDJPY\",\"instruments.AUDCHF\"]},{\"statement\":\"Le correlazioni intermarket sono in gran parte consistenti, ma alcune relazioni risultano indebolite o senza baseline, limitando una lettura univoca.\",\"refs\":[\"intermarket.US100~US30.D1\",\"intermarket.AUDJPY~US500.D1\",\"intermarket.XAUUSD~US500.D1\"]}],\"uncertainties\":[{\"description\":\"Il calendario economico non è disponibile, quindi il rischio evento delle prossime 24 ore non è osservabile.\",\"missing_information\":\"Calendario economico completo con eventi e orari delle prossime 24 ore.\",\"impact\":\"HIGH\"},{\"description\":\"Mancano serie macro e curva dei rendimenti, quindi il contesto macro strutturale non è misurabile.\",\"missing_information\":\"Dati macro (inflazione, occupazione, PIL) e curva dei rendimenti.\",\"impact\":\"HIGH\"},{\"description\":\"La storia del VIX non è disponibile in modo interpretabile; la volatilità strutturale resta solo parzialmente osservabile.\",\"missing_information\":\"Serie storica affidabile di volatilità implicita/VIX.\",\"impact\":\"MEDIUM\"},{\"description\":\"Le letture di rischio sono discordi tra timeframe, quindi la direzione dominante non è robusta.\",\"missing_information\":\"Conferma multi-timeframe più coerente su azioni, FX ciclico e rifugi.\",\"impact\":\"MEDIUM\"}],\"assets_to_watch\":[{\"canonical\":\"USDJPY\",\"reason\":\"È una delle coppie più sensibili alla forza del dollaro e al tono di rischio; il quadro attuale mostra USD forte e lettura intermarket non pienamente allineata.\",\"watch_for\":\"Persistenza della forza relativa dell’USD rispetto allo JPY o perdita di coerenza con il quadro risk-off.\"},{\"canonical\":\"EURUSD\",\"reason\":\"Rappresenta bene la debolezza dell’euro contro un USD forte e aiuta a verificare se il bias sul dollaro si estende.\",\"watch_for\":\"Se la debolezza dell’EUR si mantiene o si attenua rispetto all’USD.\"},{\"canonical\":\"AUDUSD\",\"reason\":\"È utile per monitorare la componente ciclica del rischio, dato che le valute cicliche sono l’indizio più netto verso risk-off.\",\"watch_for\":\"Se la componente ciclica resta debole o recupera coerenza con un tono più favorevole al rischio.\"},{\"canonical\":\"US500\",\"reason\":\"L’indice è neutrale ma centrale per capire se il mercato azionario si allinea a un regime più definito.\",\"watch_for\":\"Se il quadro azionario passa da neutrale/misto a una direzione più coerente.\"},{\"canonical\":\"XAUUSD\",\"reason\":\"Il metallo resta neutrale ma la sua relazione con il rischio e con l’USD può aiutare a leggere eventuali cambi di tono.\",\"watch_for\":\"Se il metallo smette di essere neutrale e si allinea a una lettura più difensiva o più risk-on.\"}],\"invalidation_conditions\":[{\"description\":\"Il regime cambia a RISK_ON entro 24 ore.\",\"subject\":\"regime\",\"metric\":\"REGIME\",\"direction\":\"CHANGES_TO\",\"threshold\":null,\"target_state\":\"RISK_ON\",\"horizon_hours\":24},{\"description\":\"Il regime cambia a RISK_OFF entro 24 ore.\",\"subject\":\"regime\",\"metric\":\"REGIME\",\"direction\":\"CHANGES_TO\",\"threshold\":null,\"target_state\":\"RISK_OFF\",\"horizon_hours\":24},{\"description\":\"USD non resta STRONG entro 24 ore.\",\"subject\":\"currency_strength.USD\",\"metric\":\"CURRENCY_STRENGTH\",\"direction\":\"NOT_REACHED\",\"threshold\":null,\"target_state\":\"STRONG\",\"horizon_hours\":24},{\"description\":\"La volatilità cambia a EXTREME entro 24 ore.\",\"subject\":\"volatility\",\"metric\":\"VOLATILITY\",\"direction\":\"CHANGES_TO\",\"threshold\":null,\"target_state\":\"EXTREME\",\"horizon_hours\":24}],\"confidence\":\"LOW\"}",
+    "status": "AVAILABLE",
+    "failure_reasons": [],
+    "analysis": {
+      "engine_regime_acknowledged": "UNCERTAIN",
+      "market_summary": "Il quadro complessivo resta indeciso: il motore segnala regime UNCERTAIN, con sentiment di rischio anch’esso UNCERTAIN e solo metà degli indizi di rischio in accordo. Le valute mostrano un USD forte e un GBP forte, mentre EUR e NZD risultano deboli; sugli indici azionari il quadro è misto/neutralizzato, e la volatilità è elevata ma stabile. Il cross-check del dollaro conferma la forza dell’USD.",
+      "analyst_view_on_regime": "Con i dati disponibili, la lettura di UNCERTAIN è coerente. Esistono segnali di supporto al rischio-off tramite USD forte e valute cicliche deboli, ma il resto del pannello non converge: azioni complessivamente neutre, metalli neutrali, e diversi timeframe con divergenze marcate. Inoltre il contesto è degradato e il calendario è incompleto, quindi non c’è base sufficiente per una direzione univoca.",
+      "dominant_themes": [
+        {
+          "title": "Forza del dollaro come asse dominante",
+          "description": "L’USD è la valuta più forte nel paniere e il cross-check del dollaro conferma la stessa lettura, suggerendo una pressione relativa favorevole al dollaro rispetto al resto del G10.",
+          "refs": [
+            "currency_strength.USD",
+            "dollar_index"
+          ]
+        },
+        {
+          "title": "Segnali di rischio non allineati",
+          "description": "Gli indizi di rischio non convergono: le valute cicliche puntano chiaramente a risk-off, ma azioni, yen, franco e volatilità azionaria restano più deboli o neutrali.",
+          "refs": [
+            "risk_sentiment.evidence.valute_cicliche",
+            "risk_sentiment.evidence.azioni",
+            "risk_sentiment.evidence.yen",
+            "risk_sentiment.evidence.franco",
+            "risk_sentiment.evidence.volatilita_azionaria"
+          ]
+        },
+        {
+          "title": "Volatilità elevata ma non in accelerazione",
+          "description": "La volatilità è elevata e stabile, con prevalenza di condizioni elevate sul comparto FX ma non un vero shock di volatilità.",
+          "refs": [
+            "volatility"
+          ]
+        },
+        {
+          "title": "Mercati azionari e metalli senza direzione netta",
+          "description": "Gli indici azionari sono nel complesso neutrali e i metalli non mostrano una direzione forte, riducendo la capacità del quadro intermarket di confermare un regime unico.",
+          "refs": [
+            "equities",
+            "metals"
+          ]
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "Persistenza di regime incerto con bias USD",
+          "narrative": "Il quadro resta frammentato: USD relativamente forte, ma senza conferma ampia da azioni, metalli o correlazioni intermarket. Il regime può rimanere indeciso finché i segnali di rischio non si riallineano.",
+          "likelihood": 0.45,
+          "horizon_hours": 24,
+          "confirming_signals": [
+            "USD resta tra le valute più forti",
+            "le letture azionarie restano miste o neutrali",
+            "la volatilità rimane elevata ma stabile"
+          ],
+          "invalidation": [
+            {
+              "description": "Il regime cambia a RISK_ON entro 24 ore.",
+              "subject": "regime",
+              "metric": "REGIME",
+              "direction": "CHANGES_TO",
+              "threshold": null,
+              "target_state": "RISK_ON",
+              "horizon_hours": 24
+            },
+            {
+              "description": "Il regime cambia a RISK_OFF entro 24 ore.",
+              "subject": "regime",
+              "metric": "REGIME",
+              "direction": "CHANGES_TO",
+              "threshold": null,
+              "target_state": "RISK_OFF",
+              "horizon_hours": 24
+            }
+          ],
+          "key_subjects": [
+            "currency_strength.USD",
+            "equities",
+            "volatility",
+            "regime"
+          ]
+        },
+        {
+          "name": "Consolidamento risk-off guidato dal dollaro",
+          "narrative": "La forza dell’USD e la debolezza di EUR/NZD, insieme al segnale forte delle valute cicliche verso risk-off, possono evolvere in una lettura più chiaramente difensiva se il resto del mercato si allinea.",
+          "likelihood": 0.3,
+          "horizon_hours": 24,
+          "confirming_signals": [
+            "USD mantiene o rafforza la leadership",
+            "EUR e NZD restano deboli",
+            "le valute cicliche continuano a puntare a risk-off"
+          ],
+          "invalidation": [
+            {
+              "description": "USD non resta STRONG entro 24 ore.",
+              "subject": "currency_strength.USD",
+              "metric": "CURRENCY_STRENGTH",
+              "direction": "NOT_REACHED",
+              "threshold": null,
+              "target_state": "STRONG",
+              "horizon_hours": 24
+            },
+            {
+              "description": "Il regime non cambia a RISK_OFF entro 24 ore.",
+              "subject": "regime",
+              "metric": "REGIME",
+              "direction": "NOT_REACHED",
+              "threshold": null,
+              "target_state": "RISK_OFF",
+              "horizon_hours": 24
+            }
+          ],
+          "key_subjects": [
+            "currency_strength.USD",
+            "currency_strength.EUR",
+            "currency_strength.NZD",
+            "risk_sentiment.evidence.valute_cicliche",
+            "regime"
+          ]
+        },
+        {
+          "name": "Riallineamento verso risk-on",
+          "narrative": "Il quadro attuale potrebbe essere solo transitorio se le letture intraday più recenti prevalgono e gli indizi di rischio tornano a convergere verso un tono più favorevole al rischio.",
+          "likelihood": 0.25,
+          "horizon_hours": 24,
+          "confirming_signals": [
+            "migliora la coerenza tra timeframe",
+            "azioni e valute cicliche si spostano verso letture più favorevoli al rischio",
+            "la volatilità non si espande"
+          ],
+          "invalidation": [
+            {
+              "description": "Il regime non cambia a RISK_ON entro 24 ore.",
+              "subject": "regime",
+              "metric": "REGIME",
+              "direction": "NOT_REACHED",
+              "threshold": null,
+              "target_state": "RISK_ON",
+              "horizon_hours": 24
+            },
+            {
+              "description": "La volatilità cambia a EXTREME entro 24 ore.",
+              "subject": "volatility",
+              "metric": "VOLATILITY",
+              "direction": "CHANGES_TO",
+              "threshold": null,
+              "target_state": "EXTREME",
+              "horizon_hours": 24
+            }
+          ],
+          "key_subjects": [
+            "risk_sentiment",
+            "equities",
+            "volatility",
+            "regime"
+          ]
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "statement": "Il regime del motore è UNCERTAIN e il sentiment di rischio composito è anch’esso UNCERTAIN.",
+          "refs": [
+            "regime",
+            "risk_sentiment"
+          ]
+        },
+        {
+          "statement": "Solo il 50% degli indizi di rischio concorda, indicando scarsa coesione del quadro.",
+          "refs": [
+            "conflicts.INDIZI_RISCHIO_DISCORDI"
+          ]
+        },
+        {
+          "statement": "L’USD è la valuta più forte del paniere e il cross-check del dollaro conferma la lettura.",
+          "refs": [
+            "currency_strength.USD",
+            "dollar_index"
+          ]
+        },
+        {
+          "statement": "Le valute cicliche sono l’unico indizio di rischio classificato come forte verso risk-off.",
+          "refs": [
+            "risk_sentiment.evidence.valute_cicliche"
+          ]
+        },
+        {
+          "statement": "La volatilità è elevata ma stabile, senza shock.",
+          "refs": [
+            "volatility"
+          ]
+        },
+        {
+          "statement": "Gli indici azionari sono complessivamente neutrali, con letture miste tra i singoli componenti.",
+          "refs": [
+            "equities"
+          ]
+        },
+        {
+          "statement": "EUR e NZD risultano deboli nel paniere valutario.",
+          "refs": [
+            "currency_strength.EUR",
+            "currency_strength.NZD"
+          ]
+        }
+      ],
+      "contradictory_evidence": [
+        {
+          "statement": "Le letture intraday e giornaliere non sono allineate: il sentiment per timeframe passa da negativo su D1/H4 a positivo su M15.",
+          "refs": [
+            "risk_sentiment"
+          ]
+        },
+        {
+          "statement": "Nel paniere azionario convivono segnali opposti: JP225 è forte, mentre GER40, UK100 e US30 sono deboli.",
+          "refs": [
+            "equities"
+          ]
+        },
+        {
+          "statement": "Nel comparto valutario alcune coppie mostrano divergenze marcate tra timeframe, ad esempio AUDJPY e AUDCHF.",
+          "refs": [
+            "instruments.AUDJPY",
+            "instruments.AUDCHF"
+          ]
+        },
+        {
+          "statement": "Le correlazioni intermarket sono in gran parte consistenti, ma alcune relazioni risultano indebolite o senza baseline, limitando una lettura univoca.",
+          "refs": [
+            "intermarket.US100~US30.D1",
+            "intermarket.AUDJPY~US500.D1",
+            "intermarket.XAUUSD~US500.D1"
+          ]
+        }
+      ],
+      "uncertainties": [
+        {
+          "description": "Il calendario economico non è disponibile, quindi il rischio evento delle prossime 24 ore non è osservabile.",
+          "missing_information": "Calendario economico completo con eventi e orari delle prossime 24 ore.",
+          "impact": "HIGH"
+        },
+        {
+          "description": "Mancano serie macro e curva dei rendimenti, quindi il contesto macro strutturale non è misurabile.",
+          "missing_information": "Dati macro (inflazione, occupazione, PIL) e curva dei rendimenti.",
+          "impact": "HIGH"
+        },
+        {
+          "description": "La storia del VIX non è disponibile in modo interpretabile; la volatilità strutturale resta solo parzialmente osservabile.",
+          "missing_information": "Serie storica affidabile di volatilità implicita/VIX.",
+          "impact": "MEDIUM"
+        },
+        {
+          "description": "Le letture di rischio sono discordi tra timeframe, quindi la direzione dominante non è robusta.",
+          "missing_information": "Conferma multi-timeframe più coerente su azioni, FX ciclico e rifugi.",
+          "impact": "MEDIUM"
+        }
+      ],
+      "assets_to_watch": [
+        {
+          "canonical": "USDJPY",
+          "reason": "È una delle coppie più sensibili alla forza del dollaro e al tono di rischio; il quadro attuale mostra USD forte e lettura intermarket non pienamente allineata.",
+          "watch_for": "Persistenza della forza relativa dell’USD rispetto allo JPY o perdita di coerenza con il quadro risk-off."
+        },
+        {
+          "canonical": "EURUSD",
+          "reason": "Rappresenta bene la debolezza dell’euro contro un USD forte e aiuta a verificare se il bias sul dollaro si estende.",
+          "watch_for": "Se la debolezza dell’EUR si mantiene o si attenua rispetto all’USD."
+        },
+        {
+          "canonical": "AUDUSD",
+          "reason": "È utile per monitorare la componente ciclica del rischio, dato che le valute cicliche sono l’indizio più netto verso risk-off.",
+          "watch_for": "Se la componente ciclica resta debole o recupera coerenza con un tono più favorevole al rischio."
+        },
+        {
+          "canonical": "US500",
+          "reason": "L’indice è neutrale ma centrale per capire se il mercato azionario si allinea a un regime più definito.",
+          "watch_for": "Se il quadro azionario passa da neutrale/misto a una direzione più coerente."
+        },
+        {
+          "canonical": "XAUUSD",
+          "reason": "Il metallo resta neutrale ma la sua relazione con il rischio e con l’USD può aiutare a leggere eventuali cambi di tono.",
+          "watch_for": "Se il metallo smette di essere neutrale e si allinea a una lettura più difensiva o più risk-on."
+        }
+      ],
+      "invalidation_conditions": [
+        {
+          "description": "Il regime cambia a RISK_ON entro 24 ore.",
+          "subject": "regime",
+          "metric": "REGIME",
+          "direction": "CHANGES_TO",
+          "threshold": null,
+          "target_state": "RISK_ON",
+          "horizon_hours": 24
+        },
+        {
+          "description": "Il regime cambia a RISK_OFF entro 24 ore.",
+          "subject": "regime",
+          "metric": "REGIME",
+          "direction": "CHANGES_TO",
+          "threshold": null,
+          "target_state": "RISK_OFF",
+          "horizon_hours": 24
+        },
+        {
+          "description": "USD non resta STRONG entro 24 ore.",
+          "subject": "currency_strength.USD",
+          "metric": "CURRENCY_STRENGTH",
+          "direction": "NOT_REACHED",
+          "threshold": null,
+          "target_state": "STRONG",
+          "horizon_hours": 24
+        },
+        {
+          "description": "La volatilità cambia a EXTREME entro 24 ore.",
+          "subject": "volatility",
+          "metric": "VOLATILITY",
+          "direction": "CHANGES_TO",
+          "threshold": null,
+          "target_state": "EXTREME",
+          "horizon_hours": 24
+        }
+      ],
+      "confidence": "LOW"
+    },
+    "record_id": "21747775add8cc032414359d",
+    "integrity_sha256": "ca7aadf968b71d08ca06940e5090f9096b9864a9b797af17f561e6013d598468"
+  }
+}
