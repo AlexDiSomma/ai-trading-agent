@@ -79,6 +79,8 @@ rivaluta tutti i gate ([ADR 0025](docs/adr/0025-fondazione-esecuzione-live.md)).
 
 ## Da dove iniziare a leggere
 
+0. [`docs/CONTESTO.md`](docs/CONTESTO.md) — stato attuale, risultati, questioni aperte
+   e come riprendere il lavoro da un altro PC.
 1. [`docs/ANALISI_SPECIFICA.md`](docs/ANALISI_SPECIFICA.md) — i problemi trovati
    nella specifica e cosa è stato cambiato. Si legge prima del codice.
 2. [`docs/BOUNDED_CONTEXTS.md`](docs/BOUNDED_CONTEXTS.md) — gli otto contesti e

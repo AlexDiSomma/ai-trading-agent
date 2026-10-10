@@ -7,14 +7,14 @@ Principio: **l'utente definisce il rischio, l'AI decide come operare dentro quel
 rischio.** Non è un bot che massimizza il numero di operazioni: `WAIT` è un
 esito di pari dignità.
 
-Stato: fasi 0-4, 4.5, 5A (AI Market Analyst in sola lettura) e 5B (AI Trade Thesis in
-shadow mode) complete. Foundation consolidata (valutazione centralizzata,
-identità degli strumenti, qualità delle quotazioni, ora broker —
-[`docs/FOUNDATION_VALIDATION.md`](docs/FOUNDATION_VALIDATION.md)) e intelligence
-globale con fonti esterne (fase 4.5, [`docs/GLOBAL_INTELLIGENCE.md`](docs/GLOBAL_INTELLIGENCE.md),
-[`docs/EXTERNAL_PROVIDERS.md`](docs/EXTERNAL_PROVIDERS.md)). Prossima:
-fase 5, **dopo conferma dell'utente**. La fase AI **operativa** non è iniziata: l'AI
-analizza, non propone ordini. Dettagli in
+**All'inizio di ogni sessione leggi [`docs/CONTESTO.md`](docs/CONTESTO.md)**: preferenze di
+lavoro dell'utente, stato del sistema, risultati del backtest e questioni aperte, riassunti
+dalle conversazioni precedenti (anche da altri PC). Poi le prime voci di
+[`DECISIONI.md`](DECISIONI.md).
+
+Stato (10 ottobre 2026): MVP **PAPER** operativo 24 ore su 24 con due conti, QUANT (regola
+fissa) e AI (tesi del modello), dashboard con login, fondazione LIVE pronta ma
+**disabilitata**, backtest di QUANT (fase 9, prima parte). Fasi in
 [`docs/ROADMAP.md`](docs/ROADMAP.md).
 
 ## Lingua
